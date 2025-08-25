@@ -1,0 +1,223 @@
+:root {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: top;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  color: white;
+  height: 120px;
+  background-color: black;
+  align-items: center;
+}
+
+nav > .name {
+  margin-top: 25px;
+  margin-left: 3em;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.navigation {
+  display: flex;
+  margin-bottom: 25px;
+  flex-grow: 8;
+  justify-content: right;
+}
+
+.navigation > .nav-item {
+  margin: 0 20px;
+}
+
+.navigation p {
+  margin-top: 25px;
+  font-size: large;
+  letter-spacing: 0.1em;
+}
+
+.navigation p:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+nav .address {
+  display: flex;
+}
+
+nav img {
+  margin: 0 10px 0 0;
+}
+
+nav h2 {
+  margin: 0;
+  cursor: pointer;
+}
+
+nav p {
+  margin: -2px 0 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.about,
+.skills,
+.recommendations {
+  display: flex;
+  justify-content: left;
+  max-width: 80%;
+}
+
+.about > div {
+  margin: 20px;
+}
+
+.about p {
+  text-align: left;
+}
+
+.skills,
+.recommendations {
+  flex-wrap: wrap;
+}
+
+.skills > section,
+.recommendations > section {
+  margin: 2em;
+  height: 220px;
+  width: 250px;
+  border: 3px solid black;
+  border-radius: 3%;
+  box-shadow: 0px 0px 5px 5px darkgray;
+}
+
+.skills .skill-logo {
+  margin-top: 10px;
+}
+
+.projects {
+  max-width: 80%;
+}
+
+.projects > h2,
+.projects h4,
+.projects li {
+  text-align: left;
+}
+
+.projects h2 {
+  margin-left: 20px;
+}
+
+.projects h4 {
+  margin: 10px 0;
+}
+
+.projects > ul > li {
+  margin-left: 30px;
+}
+
+.recommendations > section {
+  width: 350px;
+}
+
+.recommendations .message {
+  margin: 20px 20px;
+  text-align: left;
+  font-style: italic;
+  word-wrap: break-word;
+}
+
+.recommendations .author {
+  margin: 0 20px;
+  text-align: right;
+}
+
+.new-recommendation {
+  height: 500px;
+  width: 60%;
+}
+
+.recommendation-form {
+  margin: 0 20%;
+  text-align: left;
+}
+
+.recommendation-input {
+  width: 60%;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+}
+
+.recommendation-textarea {
+  height: 250px;
+  border-radius: 2%;
+}
+
+#submit-recommendation,
+#new-recommendation-btn {
+  width: 100px;
+  height: 30px;
+  background-color: inherit;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.submit-recommendation {
+  margin-top: 20px;
+}
+
+#submit-recommendation:hover,
+#new-recommendation-btn:hover {
+  filter: drop-shadow(0 0 1em rgb(36, 36, 36));
+  background-color: lightgrey;
+}
+
+#new-recommendation-btn {
+  width: auto;
+}
+
+.go-home {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.go-home:hover {
+  filter: drop-shadow(0 0 1em rgb(36, 36, 36));
+  cursor: pointer;
+}
