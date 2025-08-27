@@ -1,6 +1,7 @@
 import type { FC } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ROUTES } from '../../routes'
+import Button from '../../components/Button/Button'
 import './styles.css'
 
 const Landing: FC = () => {
@@ -13,10 +14,11 @@ const Landing: FC = () => {
   return (
     <div className="landing">
       <section className="welcome">
-        <h1>Welcome To Paradise Nursery</h1>
+        <h1>Welcome To</h1>
+        <h1>Paradise Nursery</h1>
         <hr />
         <h3> Where Green Meets Serenity</h3>
-        <button onClick={handleGoToProduct}></button>
+        <Button title="Get Started" onClick={handleGoToProduct} />
       </section>
       <section className="description">
         <h2>Welcome to Paradise Nursery, where green meets</h2>

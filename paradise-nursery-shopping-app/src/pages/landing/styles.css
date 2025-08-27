@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  text-align: center;
 }
 
 .welcome {
@@ -16,7 +17,23 @@
   /* max-width: 200px; */
 }
 
+.welcome > h1 {
+  margin: 0;
+}
+
+.welcome > hr {
+  width: 10%;
+  height: 3px;
+  background-color: green;
+  border: none;
+}
+
 .description {
   flex-grow: 3;
   flex: 0 0 63%;
+  margin: 0 40px;
+}
+
+.description > p {
+  text-align: left;
 }

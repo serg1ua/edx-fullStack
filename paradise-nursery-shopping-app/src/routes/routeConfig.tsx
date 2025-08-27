@@ -1,22 +1,24 @@
+import Cart from '../pages/cart/Cart'
+import Landing from '../pages/landing/Landing'
+import Product from '../pages/product/Product'
 import { ROUTES } from './constants'
 
 export const routeConfig = [
   {
     path: ROUTES.ROOT,
-    element: <>Landing Page</>,
+    element: <Landing />,
   },
   {
     path: ROUTES.PRODUCT,
-    element: <>Product</>,
+    element: <Product />,
   },
 
   {
     path: ROUTES.CART,
-    element: <>Cart</>,
-    index: false,
+    element: <Cart />,
   },
   {
     path: '*',
-    element: <>404 Page Not Found</>,
+    element: <h2>404 Page Not Found</h2>,
   },
 ]
