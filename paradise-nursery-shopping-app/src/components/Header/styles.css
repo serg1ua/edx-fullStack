@@ -1,0 +1,19 @@
+.logo {
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.plants {
+  flex-grow: 10;
+  /* text-align: center; */
+}
+
+.cart {
+  flex-grow: 1;
+  text-align: right;
+  margin-right: 20px;
+}

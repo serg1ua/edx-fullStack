@@ -1,0 +1,13 @@
+.cart {
+  position: relative;
+}
+
+.items-number {
+  position: absolute;
+  font-weight: bolder;
+}
+
+img {
+  width: 56px;
+  height: 56px;
+}
