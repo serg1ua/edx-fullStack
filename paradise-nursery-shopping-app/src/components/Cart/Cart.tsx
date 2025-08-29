@@ -6,7 +6,7 @@ export type CartProps = {
 }
 
 const Cart: FC<CartProps> = (props: CartProps) => {
-  const { numberOfItems = 0 } = props
+  const { numberOfItems = 10 } = props
 
   return (
     <div className="cart">
@@ -16,7 +16,7 @@ const Cart: FC<CartProps> = (props: CartProps) => {
         style={{
           bottom: numberOfItems > 99 ? '12px' : 0,
           right:
-            numberOfItems > 1 && numberOfItems <= 99 ? '12px' : numberOfItems > 99 ? '8px' : '16px',
+            numberOfItems > 1 && numberOfItems <= 99 ? '8px' : numberOfItems > 99 ? '10px' : '16px',
           fontSize: numberOfItems > 99 ? '16px' : '24px',
         }}
       >

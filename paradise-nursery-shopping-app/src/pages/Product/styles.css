@@ -1,0 +1,16 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: baseline; */
+  /* place-items: top; */
+  /* height: 100vh; */
+  /* text-align: center; */
+  background-color: lightgray;
+  /* width: 80%; */
+  height: 100vh;
+}
+
+.product {
+  margin: 30px auto;
+}
