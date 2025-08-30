@@ -6,8 +6,8 @@ export const plantApi = createApi({
   reducerPath: 'plantApi',
   baseQuery,
   endpoints: (builder) => ({
-    getAllPlants: builder.query<BaseResponse<Plant>, { params: BaseRequestParams }>({
-      query: ({ params = { pageNumber: 1, pageSize: 10 } }) => ({
+    getAllPlants: builder.query<BaseResponse<Plant>, { params?: BaseRequestParams }>({
+      query: ({ params }) => ({
         url: '/all-lite',
         credentials: 'include',
         params,
@@ -15,3 +15,5 @@ export const plantApi = createApi({
     }),
   }),
 })
+
+export const { useGetAllPlantsQuery } = plantApi

@@ -14,3 +14,11 @@
 .product {
   margin: 30px auto;
 }
+
+.loading {
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  font-size: larger;
+  font-weight: bold;
+}

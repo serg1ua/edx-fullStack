@@ -4,7 +4,7 @@ export type BaseResponse<T> = {
 }
 
 export type BaseRequestParams = {
-  [key: string]: unknown
+  [key: string]: string
 }
 
 export type Plant = {
