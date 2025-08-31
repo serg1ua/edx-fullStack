@@ -1,22 +1,17 @@
 import { type FC } from 'react'
 import Button from '../../components/Button/Button'
+import type { Plant } from '../../types'
 import './styles.css'
 
-export type CardProps = {
-  [key: string]: string
-}
-
-const Card: FC<CardProps> = (props: CardProps) => {
-  // const { imgUrl, price, title, description } = props
+const Card: FC<Plant> = (props: Plant) => {
+  const { name, image, description, price } = props
 
   return (
     <div className="card">
-      <h3>Title</h3>
-      <div style={{ backgroundColor: 'green', height: '50%' }}>
-        <img src="/plant-grass.svg" alt="Product Image" />
-      </div>
-      <p style={{ color: 'red' }}>$20</p>
-      <p>Some description</p>
+      <h3>{name}</h3>
+      <img src={image} alt="Plant Image" style={{ width: '200px', height: '200px' }} />
+      <p style={{ color: 'red' }}>{price}</p>
+      <p>{description}</p>
       <Button title="Add to Cart" onClick={() => console.log('add to cart')} />
     </div>
   )

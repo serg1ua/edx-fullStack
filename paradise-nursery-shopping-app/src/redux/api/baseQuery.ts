@@ -19,6 +19,4 @@ export const baseQuery: BaseQueryFn<string | FetchArgs, unknown, FetchBaseQueryE
   args,
   api,
   extraOptions,
-) => {
-  return await fetchQuery(args, api, extraOptions)
-}
+) => await fetchQuery(args, api, extraOptions)

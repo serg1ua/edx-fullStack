@@ -16,22 +16,21 @@ import {
   REHYDRATE,
 } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
+import { plantsReducer } from '../slice'
 import { plantApi } from '../api'
 
-export const rootReducer = combineReducers({
+const rootReducer = combineReducers({
   [plantApi.reducerPath]: plantApi.reducer,
+  plants: plantsReducer,
 })
 
 const persistConfig = {
   key: 'root',
   storage,
+  whitelist: ['plants'],
 }
 const persistedReducer = persistReducer(persistConfig, rootReducer)
 const reduxPersistActions = [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER]
-
-{
-  console.log(import.meta.env)
-}
 
 export const store = configureStore({
   reducer: persistedReducer,

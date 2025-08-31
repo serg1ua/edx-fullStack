@@ -8,6 +8,10 @@
   /* text-align: center; */
   background-color: lightgray;
   /* width: 80%; */
+  height: 100wh;
+}
+
+.loading {
   height: 100vh;
 }
 

@@ -1,1 +1,1 @@
-export * from './plantsApi'
+export * from './plantApi'
