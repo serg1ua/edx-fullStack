@@ -1,10 +1,13 @@
 import type { FC } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { useSelector } from '../../redux/store'
 import { ROUTES } from '../../routes'
 import Cart from '../Cart/Cart'
 import './styles.css'
 
 const Header: FC = () => {
+  const cartItems = useSelector((state) => state.cart)
+
   const navigate = useNavigate()
 
   const navigateToCart = () => {
@@ -27,7 +30,7 @@ const Header: FC = () => {
         <p>Plants</p>
       </div>
       <div className="cart">
-        <Cart onClick={navigateToCart} />
+        <Cart onClick={navigateToCart} numberOfItems={cartItems.length} />
       </div>
     </header>
   )

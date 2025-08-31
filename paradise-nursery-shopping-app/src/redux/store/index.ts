@@ -16,11 +16,13 @@ import {
   REHYDRATE,
 } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
+import { cartReducer } from '../slice/cartSlice'
 import { plantsReducer } from '../slice'
 import { plantApi } from '../api'
 
 const rootReducer = combineReducers({
   [plantApi.reducerPath]: plantApi.reducer,
+  cart: cartReducer,
   plants: plantsReducer,
 })
 

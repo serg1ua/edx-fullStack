@@ -2,12 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: baseline; */
-  /* place-items: top; */
-  /* height: 100vh; */
-  /* text-align: center; */
   background-color: lightgray;
-  /* width: 80%; */
   height: 100wh;
 }
 
@@ -25,4 +20,16 @@
   color: var(--primary-color);
   font-size: larger;
   font-weight: bold;
+}
+
+.product-category-wrapper {
+  display: 'block';
+  color: black;
+}
+
+.product-category-wrapper hr {
+  width: 20%;
+  height: 3px;
+  background-color: var(--primary-color);
+  border: none;
 }

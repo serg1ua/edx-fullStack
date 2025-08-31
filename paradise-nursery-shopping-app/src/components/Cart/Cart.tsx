@@ -7,7 +7,7 @@ export type CartProps = {
 }
 
 const Cart: FC<CartProps> = (props: CartProps) => {
-  const { numberOfItems = 10, onClick } = props
+  const { numberOfItems = 0, onClick } = props
 
   return (
     <div className="cart-inner" onClick={onClick}>
@@ -16,8 +16,7 @@ const Cart: FC<CartProps> = (props: CartProps) => {
         className="items-number"
         style={{
           bottom: numberOfItems > 99 ? '12px' : 0,
-          right:
-            numberOfItems > 1 && numberOfItems <= 99 ? '8px' : numberOfItems > 99 ? '10px' : '16px',
+          right: numberOfItems >= 10 ? '10px' : '16px',
           fontSize: numberOfItems > 99 ? '16px' : '24px',
         }}
       >

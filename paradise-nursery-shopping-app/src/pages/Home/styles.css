@@ -24,7 +24,7 @@
 .welcome > hr {
   width: 10%;
   height: 3px;
-  background-color: green;
+  background-color: var(--primary-color);
   border: none;
 }
 
