@@ -1,8 +1,16 @@
 import type { FC } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { ROUTES } from '../../routes'
 import Cart from '../Cart/Cart'
 import './styles.css'
 
 const Header: FC = () => {
+  const navigate = useNavigate()
+
+  const navigateToCart = () => {
+    navigate(ROUTES.CART)
+  }
+
   return (
     <header>
       <div className="logo">
@@ -19,7 +27,7 @@ const Header: FC = () => {
         <p>Plants</p>
       </div>
       <div className="cart">
-        <Cart />
+        <Cart onClick={navigateToCart} />
       </div>
     </header>
   )

@@ -1,5 +1,7 @@
-.cart {
+.cart-inner {
   position: relative;
+  width: fit-content;
+  cursor: pointer;
 }
 
 .items-number {

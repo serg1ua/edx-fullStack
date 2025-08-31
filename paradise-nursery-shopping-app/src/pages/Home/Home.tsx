@@ -7,7 +7,7 @@ import './styles.css'
 const Home: FC = () => {
   const navigate = useNavigate()
 
-  const handleGoToProduct = (): void => {
+  const navigateToProduct = (): void => {
     navigate(ROUTES.PRODUCT)
   }
 
@@ -18,7 +18,7 @@ const Home: FC = () => {
         <h1>Paradise Nursery</h1>
         <hr />
         <h3> Where Green Meets Serenity</h3>
-        <Button title="Get Started" onClick={handleGoToProduct} />
+        <Button title="Get Started" onClick={navigateToProduct} />
       </section>
       <section className="description">
         <h2>Welcome to Paradise Nursery, where green meets</h2>
