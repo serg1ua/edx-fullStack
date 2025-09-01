@@ -1,7 +1,7 @@
 export enum RouteTypes {
-  'ROOT' = '/',
-  'PRODUCT' = '/product-listing',
-  'CART' = '/shopping-cart',
+  'ROOT' = '/edx-fullStack',
+  'PRODUCT' = '/edx-fullStack/product-listing',
+  'CART' = '/edx-fullStack/shopping-cart',
 }
 
 export const ROUTES = {

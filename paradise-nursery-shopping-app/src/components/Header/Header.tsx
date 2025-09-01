@@ -1,6 +1,7 @@
 import type { FC } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useSelector } from '../../redux/store'
+import plantLogo from '../../assets/plant.png'
 import { ROUTES } from '../../routes'
 import Cart from '../Cart/Cart'
 import './styles.css'
@@ -25,7 +26,7 @@ const Header: FC = () => {
   return (
     <header>
       <div onClick={navigateHome} className="logo">
-        <img src="/plant.png" alt="Logo" />
+        <img src={plantLogo} alt="Logo" />
         <div className="title">
           <h2>Paradise Nursery</h2>
           <p>
