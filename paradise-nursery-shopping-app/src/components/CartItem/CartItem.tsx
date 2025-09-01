@@ -10,6 +10,7 @@ type CartItemProps = {
   image?: string
   contCartItemsById: (id: string) => number
   handleIncrement: (id: string) => void
+  handleDecrement: (id: string) => void
   handleDelete: (id: string) => void
 }
 
@@ -20,6 +21,7 @@ const CartItem: FC<CartItemProps> = ({
   price,
   contCartItemsById,
   handleIncrement,
+  handleDecrement,
   handleDelete,
 }: CartItemProps) => {
   return (
@@ -32,7 +34,7 @@ const CartItem: FC<CartItemProps> = ({
         <p className="content">${price}</p>
         <Counter
           count={contCartItemsById(id)}
-          onDecrement={() => console.log('decrement')}
+          onDecrement={() => handleDecrement(id)}
           onIncrement={() => handleIncrement(id)}
         />
         <p className="content">Total: ${contCartItemsById(id) * Number(price)}</p>

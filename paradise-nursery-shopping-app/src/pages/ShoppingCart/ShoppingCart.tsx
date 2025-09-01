@@ -1,6 +1,6 @@
 import type { FC } from 'react'
 import { useDispatch, useSelector } from '../../redux/store'
-import { addCartItem, deleteCartItems } from '../../redux/slice/cartSlice'
+import { addCartItem, deleteCartItem, deleteCartItems } from '../../redux/slice/cartSlice'
 import Header from '../../components/Header/Header'
 import CartItem from '../../components/CartItem/CartItem'
 import type { Plant } from '../../types'
@@ -33,6 +33,10 @@ const ShoppingCart: FC = () => {
     dispatch(addCartItem(id))
   }
 
+  const handleDecrement = (id: string) => {
+    dispatch(deleteCartItem(id))
+  }
+
   const handleDelete = (id: string) => {
     dispatch(deleteCartItems(id))
   }
@@ -51,6 +55,7 @@ const ShoppingCart: FC = () => {
               price={price}
               contCartItemsById={contCartItemsById}
               handleIncrement={handleIncrement}
+              handleDecrement={handleDecrement}
               handleDelete={handleDelete}
             />
           </div>
