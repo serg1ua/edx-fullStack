@@ -10,24 +10,31 @@ const Header: FC = () => {
 
   const navigate = useNavigate()
 
+  const navigateHome = () => {
+    navigate(ROUTES.ROOT)
+  }
+
+  const navigateToProduct = () => {
+    navigate(ROUTES.PRODUCT)
+  }
+
   const navigateToCart = () => {
     navigate(ROUTES.CART)
   }
 
   return (
     <header>
-      <div className="logo">
+      <div onClick={navigateHome} className="logo">
         <p>Logo here</p>
       </div>
-
-      <div className="title">
+      <div onClick={navigateHome} className="title">
         <h2>Paradise Nursery</h2>
         <p>
           <i>Where Green Meets Serenity</i>
         </p>
       </div>
-      <div className="plants">
-        <p>Plants</p>
+      <div onClick={navigateToProduct} className="plants">
+        <h2>Plants</h2>
       </div>
       <div className="cart">
         <Cart onClick={navigateToCart} numberOfItems={cartItems.length} />

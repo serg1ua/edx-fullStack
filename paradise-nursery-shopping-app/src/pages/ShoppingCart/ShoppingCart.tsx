@@ -1,13 +1,18 @@
 import type { FC } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from '../../redux/store'
 import { addCartItem, deleteCartItem, deleteCartItems } from '../../redux/slice/cartSlice'
 import Header from '../../components/Header/Header'
 import CartItem from '../../components/CartItem/CartItem'
+import Button from '../../components/Button/Button'
 import type { Plant } from '../../types'
+import { ROUTES } from '../../routes'
 import './styles.css'
 
 const ShoppingCart: FC = () => {
+  const navigate = useNavigate()
   const dispatch = useDispatch()
+
   const plants = useSelector((state) => state.plants)
   const cartItems = useSelector((state) => state.cart)
 
@@ -41,6 +46,10 @@ const ShoppingCart: FC = () => {
     dispatch(deleteCartItems(id))
   }
 
+  const navigateToProduct = (): void => {
+    navigate(ROUTES.PRODUCT)
+  }
+
   return (
     <>
       <Header />
@@ -60,6 +69,11 @@ const ShoppingCart: FC = () => {
             />
           </div>
         ))}
+        <div className="cart-buttons">
+          <Button title="Continue Shopping" onClick={navigateToProduct} />
+          <br />
+          {cartItems.length ? <Button title="Checkout" onClick={() => {}} /> : <></>}
+        </div>
       </div>
     </>
   )

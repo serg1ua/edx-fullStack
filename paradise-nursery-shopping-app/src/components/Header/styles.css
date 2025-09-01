@@ -1,18 +1,27 @@
 .logo {
   margin-left: 20px;
   flex-grow: 1;
+  cursor: pointer;
 }
 
 .title {
   flex-grow: 1;
+  cursor: pointer;
+}
+
+.title > h2,
+.title > p {
+  margin: 0;
 }
 
 .plants {
   flex-grow: 10;
-  /* text-align: center; */
+  text-align: center;
+  margin-right: 320px;
+  cursor: pointer;
 }
 
 .cart {
   flex-grow: 1;
-  margin-left: 50%;
+  /* margin-left: 50%; */
 }
