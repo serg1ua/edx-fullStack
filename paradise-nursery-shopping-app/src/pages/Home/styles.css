@@ -4,7 +4,7 @@
   justify-content: center;
   place-items: center;
   height: 100vh;
-  background-image: url('src/assets/greenhouse-03.png');
+  background-image: url('../../assets/greenhouse-03.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

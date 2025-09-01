@@ -1,4 +1,5 @@
 import { type FC } from 'react'
+import cartLogo from '../../assets/cart.svg'
 import './styles.css'
 
 export type CartProps = {
@@ -11,7 +12,7 @@ const Cart: FC<CartProps> = (props: CartProps) => {
 
   return (
     <div className="cart-inner" onClick={onClick}>
-      <img src="/src/assets/cart.svg" alt="Shopping Cart Icon" />
+      <img src={cartLogo} alt="Shopping Cart Icon" />
       <p
         className="items-number"
         style={{
