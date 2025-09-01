@@ -1,0 +1,14 @@
+.cart-inner {
+  position: relative;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.items-number {
+  position: absolute;
+  font-weight: bolder;
+}
+.cart-inner > img {
+  width: 56px;
+  height: 56px;
+}

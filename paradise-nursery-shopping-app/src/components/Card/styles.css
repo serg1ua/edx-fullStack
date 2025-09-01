@@ -1,0 +1,24 @@
+.card {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border-radius: 3px;
+  color: black;
+  text-align: center;
+}
+
+.card > h3 {
+  margin: 0;
+}
+
+.card > p {
+  margin: 0;
+}
+
+.card > .price {
+  color: var(--primary-red-color);
+}
+
+.card > Button {
+  margin: auto 0;
+}

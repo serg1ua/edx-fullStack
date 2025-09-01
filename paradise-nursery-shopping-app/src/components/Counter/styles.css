@@ -1,0 +1,9 @@
+.counter {
+  display: flex;
+  align-items: left;
+}
+
+.counter > p {
+  margin: auto 10px;
+  font-weight: bold;
+}

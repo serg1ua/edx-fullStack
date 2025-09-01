@@ -1,0 +1,52 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 120px;
+  align-items: center;
+  background-color: var(--primary-color);
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.logo {
+  display: flex;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.plants {
+  text-align: center;
+  margin-right: 240px;
+  cursor: pointer;
+}
+
+.cart {
+  margin-right: 20px;
+}
+
+.title > h2,
+.title > p {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    display: none;
+  }
+  .plants {
+    margin-right: 0;
+  }
+}

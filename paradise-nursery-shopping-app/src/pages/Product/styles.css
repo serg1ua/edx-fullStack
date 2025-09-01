@@ -1,0 +1,36 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100wh;
+  margin-top: 140px;
+}
+
+.loading {
+  height: 100vh;
+}
+
+.product {
+  margin: 30px auto;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  font-size: larger;
+  font-weight: bold;
+}
+
+.product-category-wrapper {
+  display: 'block';
+  text-align: center;
+  color: black;
+}
+
+.product-category-wrapper hr {
+  width: 20%;
+  height: 3px;
+  background-color: var(--primary-color);
+  border: none;
+}

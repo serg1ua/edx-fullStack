@@ -1,0 +1,26 @@
+.btn {
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 4px;
+  font-size: large;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.disabled-btn {
+  cursor: auto;
+  background-color: grey;
+}
+
+.delete-btn {
+  background-color: var(--primary-red-color);
+}
+
+.counter-btn {
+  padding: 0;
+  color: black;
+  background-color: var(--primary-background-color);
+  width: 30px;
+  height: 30px;
+}
