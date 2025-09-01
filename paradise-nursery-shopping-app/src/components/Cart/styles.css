@@ -8,8 +8,7 @@
   position: absolute;
   font-weight: bolder;
 }
-
-img {
+.cart-inner > img {
   width: 56px;
   height: 56px;
 }

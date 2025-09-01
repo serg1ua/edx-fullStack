@@ -29,7 +29,7 @@ const rootReducer = combineReducers({
 const persistConfig = {
   key: 'root',
   storage,
-  whitelist: ['plants'],
+  whitelist: ['cart', 'plants'],
 }
 const persistedReducer = persistReducer(persistConfig, rootReducer)
 const reduxPersistActions = [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER]

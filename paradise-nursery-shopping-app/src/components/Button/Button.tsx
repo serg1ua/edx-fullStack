@@ -1,20 +1,20 @@
 import type { FC } from 'react'
 
 export type ButtonProps = {
-  active?: boolean
+  disabled?: boolean
   title: string
   onClick: () => void
 }
 
 const Button: FC<ButtonProps> = (props: ButtonProps) => {
-  const { active = true, title, onClick } = props
+  const { disabled = false, title, onClick } = props
 
   return (
     <button
-      className={`btn ${!active ? 'inactive-btn' : ''}`}
+      className={`btn ${disabled ? 'disabled-btn' : ''}`}
       type="button"
+      disabled={disabled}
       onClick={onClick}
-      disabled={!active}
     >
       {title}
     </button>

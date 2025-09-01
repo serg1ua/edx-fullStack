@@ -11,7 +11,9 @@ const Product: FC = () => {
   const dispatch = useDispatch()
 
   const { refetch, isFetching } = useGetAllPlantsQuery({})
+
   const plants = useSelector((state) => state.plants)
+  const cartItems = useSelector((state) => state.cart)
 
   const sortedPlants = plants.reduce((acc: { [key: string]: Plant[] }, curr: Plant) => {
     if (acc[curr.category]) {
@@ -40,18 +42,23 @@ const Product: FC = () => {
           Object.keys(sortedPlants)
             .sort()
             .map((category) => (
-              <div
-                key={category}
-                className="product-category-wrapper"
-                style={{ textAlign: 'center' }}
-              >
+              <div key={category} className="product-category-wrapper">
                 <hr />
                 <h2>{category}</h2>
                 <hr />
-                <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+                <div
+                  style={{
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                  }}
+                >
                   {sortedPlants[category].map((plant) => (
                     <div className="product" key={plant.id}>
-                      <Card {...plant} handleAddToCart={handleAddToCart} />
+                      <Card
+                        {...plant}
+                        isInCart={cartItems.includes(plant.id)}
+                        handleAddToCart={handleAddToCart}
+                      />
                     </div>
                   ))}
                 </div>

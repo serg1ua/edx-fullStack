@@ -1,7 +1,6 @@
 import { type FC } from 'react'
 import Button from '../../components/Button/Button'
 import type { Plant } from '../../types'
-import './styles.css'
 
 type CardProps = Plant & {
   handleAddToCart: (id: string) => void

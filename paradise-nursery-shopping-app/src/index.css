@@ -8,6 +8,7 @@
   color: white;
 
   --primary-color: #04aa6d;
+  --primary-background-color: lightgray;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,6 +29,7 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
+  background-color: var(--primary-background-color);
 }
 
 header {
@@ -50,7 +52,8 @@ header {
   cursor: pointer;
 }
 
-.inactive-btn {
+.disabled-btn {
+  cursor: auto;
   background-color: grey;
 }
 

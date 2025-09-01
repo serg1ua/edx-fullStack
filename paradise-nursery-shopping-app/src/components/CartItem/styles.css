@@ -15,10 +15,6 @@
   margin: 0;
 }
 
-.card > .price {
-  color: red;
-}
-
 .card > Button {
   margin: auto 0;
 }
