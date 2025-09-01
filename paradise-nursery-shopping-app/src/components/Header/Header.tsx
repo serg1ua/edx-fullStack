@@ -25,14 +25,15 @@ const Header: FC = () => {
   return (
     <header>
       <div onClick={navigateHome} className="logo">
-        <p>Logo here</p>
+        <img src="/plant.png" alt="Logo" />
+        <div className="title">
+          <h2>Paradise Nursery</h2>
+          <p>
+            <i>Where Green Meets Serenity</i>
+          </p>
+        </div>
       </div>
-      <div onClick={navigateHome} className="title">
-        <h2>Paradise Nursery</h2>
-        <p>
-          <i>Where Green Meets Serenity</i>
-        </p>
-      </div>
+
       <div onClick={navigateToProduct} className="plants">
         <h2>Plants</h2>
       </div>

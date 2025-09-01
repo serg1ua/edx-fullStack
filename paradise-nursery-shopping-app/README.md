@@ -67,3 +67,10 @@ export default tseslint.config([
   },
 ])
 ```
+
+## Create .env file in the root directory and provide the following values
+
+```.env
+  VITE_BASE_URL=https://house-plants2.p.rapidapi.com
+  VITE_RAPIDAPI_HOUSEPLANTS_KEY={your_key}
+```

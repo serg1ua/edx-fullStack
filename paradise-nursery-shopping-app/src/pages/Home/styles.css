@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* align-items: baseline; */
   place-items: center;
   height: 100vh;
   background-image: url('src/assets/greenhouse-03.png');
@@ -14,7 +13,6 @@
 
 .welcome {
   flex-grow: 2;
-  /* max-width: 200px; */
 }
 
 .welcome > h1 {
