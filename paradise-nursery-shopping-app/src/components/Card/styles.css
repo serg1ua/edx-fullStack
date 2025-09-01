@@ -16,7 +16,7 @@
 }
 
 .card > .price {
-  color: red;
+  color: var(--primary-red-color);
 }
 
 .card > Button {

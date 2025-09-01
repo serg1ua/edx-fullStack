@@ -37,14 +37,6 @@ const initialState: Plant[] = [
     price: '$11',
   },
   {
-    id: '894d8453-28a0-59d1-ac0a-132dff7ee7a5',
-    category: 'Aglaonema',
-    name: 'Chinese Evergreen',
-    description: "Aglaonema 'Jubilee'",
-    image: 'http://www.tropicopia.com/house-plant/thumbnails/5466.jpg',
-    price: '$11',
-  },
-  {
     id: 'f66ad303-c2ff-55ac-8689-036553b740fe',
     category: 'Hanging',
     name: 'Herringbone',
@@ -61,27 +53,11 @@ const initialState: Plant[] = [
     price: '$11',
   },
   {
-    id: 'f08f56e9-1122-5268-92d3-f36825fb3168',
-    category: 'Aglaonema',
-    name: 'Chinese Evergreen',
-    description: "Aglaonema 'Silver Queen'",
-    image: 'http://www.tropicopia.com/house-plant/thumbnails/5480.jpg',
-    price: '$11',
-  },
-  {
     id: 'f9f9bc5a-d562-5c55-a027-819eb64eee91',
     category: 'Spathiphyllum',
     name: 'Peace lily',
     description: "Spathiphyllum 'Ceres'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5758.jpg',
-    price: '$11',
-  },
-  {
-    id: 'e86d1a7a-af49-5b71-84a6-38f08df1ac54',
-    category: 'Aglaonema',
-    name: 'Chinese Evergreen',
-    description: "Aglaonema 'Queen of Siam'",
-    image: 'http://www.tropicopia.com/house-plant/thumbnails/5477.jpg',
     price: '$11',
   },
   {
@@ -277,14 +253,6 @@ const initialState: Plant[] = [
     price: '$11',
   },
   {
-    id: 'a0736303-131a-52ce-a742-80f6a44cb744',
-    category: 'Aglaonema',
-    name: 'Chinese Evergreen',
-    description: "Aglaonema 'Silver Queen'",
-    image: 'http://www.tropicopia.com/house-plant/thumbnails/5481.jpg',
-    price: '$11',
-  },
-  {
     id: 'a5178737-1b07-56b8-8667-0be3477fef48',
     category: 'Dracaena',
     name: 'Spineless yucca',
@@ -306,14 +274,6 @@ const initialState: Plant[] = [
     name: 'English ivy',
     description: "Hedera helix 'Gold Baby'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5639.jpg',
-    price: '$11',
-  },
-  {
-    id: '616700e9-f14a-57db-9c50-8205d0e4c5c7',
-    category: 'Aglaonema',
-    name: 'Chinese Evergreen',
-    description: "Aglaonema 'Emerald Beauty'",
-    image: 'http://www.tropicopia.com/house-plant/thumbnails/5456.jpg',
     price: '$11',
   },
   {
@@ -714,14 +674,6 @@ const initialState: Plant[] = [
     name: 'Grape Ivy',
     description: "Cissus rhombifolia 'Ellen Danica'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5529.jpg',
-    price: '$11',
-  },
-  {
-    id: 'b08215e6-cab7-5582-bc26-baa91896e6bb',
-    category: 'Aglaonema',
-    name: 'Chinese Evergreen',
-    description: "Aglaonema 'BJ Freeman'",
-    image: 'http://www.tropicopia.com/house-plant/thumbnails/5453.jpg',
     price: '$11',
   },
   {
@@ -1285,14 +1237,6 @@ const initialState: Plant[] = [
     price: '$11',
   },
   {
-    id: 'cd446c9c-23bf-5eb5-81f9-d554bf4689b6',
-    category: 'Aglaonema',
-    name: 'Chinese Evergreen',
-    description: "Aglaonema 'Green Lady'",
-    image: 'http://www.tropicopia.com/house-plant/thumbnails/5461.jpg',
-    price: '$11',
-  },
-  {
     id: '783cf1a6-6a68-52d1-9147-29892cfa9345',
     category: 'Aralia',
     name: 'Ming Aralia',
@@ -1490,14 +1434,6 @@ const initialState: Plant[] = [
     name: 'White Pothos',
     description: "Epipremnum aureum 'Marble Queen'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5596.jpg',
-    price: '$11',
-  },
-  {
-    id: '56894689-d081-5231-b9a2-2b855d7cee16',
-    category: 'Aglaonema',
-    name: 'Chinese Evergreen',
-    description: "Aglaonema 'Silver Queen'",
-    image: 'http://www.tropicopia.com/house-plant/thumbnails/5483.jpg',
     price: '$11',
   },
   {
