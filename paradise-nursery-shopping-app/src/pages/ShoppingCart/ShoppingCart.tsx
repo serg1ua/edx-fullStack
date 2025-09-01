@@ -1,7 +1,7 @@
 import type { FC } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from '../../redux/store'
-import { addCartItem, deleteCartItem, deleteCartItems } from '../../redux/slice/cartSlice'
+import { addItem, removeItem, updateQuantity } from '../../redux/slice/cartSlice'
 import Header from '../../components/Header/Header'
 import CartItem from '../../components/CartItem/CartItem'
 import Button from '../../components/Button/Button'
@@ -35,15 +35,15 @@ const ShoppingCart: FC = () => {
     }, 0)
 
   const handleIncrement = (id: string) => {
-    dispatch(addCartItem(id))
+    dispatch(addItem(id))
   }
 
   const handleDecrement = (id: string) => {
-    dispatch(deleteCartItem(id))
+    dispatch(removeItem(id))
   }
 
   const handleDelete = (id: string) => {
-    dispatch(deleteCartItems(id))
+    dispatch(updateQuantity(id))
   }
 
   const navigateToProduct = (): void => {
