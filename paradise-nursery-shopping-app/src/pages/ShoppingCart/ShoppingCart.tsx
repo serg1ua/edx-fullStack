@@ -72,7 +72,11 @@ const ShoppingCart: FC = () => {
         <div className="cart-buttons">
           <Button title="Continue Shopping" onClick={navigateToProduct} />
           <br />
-          {cartItems.length ? <Button title="Checkout" onClick={() => {}} /> : <></>}
+          {cartItems.length ? (
+            <Button title="Checkout" onClick={() => alert('Coming soon')} />
+          ) : (
+            <></>
+          )}
         </div>
       </div>
     </>
