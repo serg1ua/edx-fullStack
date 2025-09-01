@@ -15,7 +15,7 @@ const Card: FC<CardProps> = (props: CardProps) => {
     <div className="card">
       <h3>{name}</h3>
       <img src={image} alt="Plant Image" style={{ width: '200px', height: '200px' }} />
-      <p className="price">{price}</p>
+      <p className="price">${price}</p>
       <p>{description}</p>
       <Button disabled={isInCart} title="Add to Cart" onClick={() => handleAddToCart(id)} />
     </div>

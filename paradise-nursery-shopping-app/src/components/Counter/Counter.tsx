@@ -3,12 +3,12 @@ import Button from '../Button/Button'
 import './styles.css'
 
 export type CounterProps = {
-  count?: number
+  count: number
   onIncrement: () => void
   onDecrement: () => void
 }
 
-const Counter: FC<CounterProps> = ({ onDecrement, onIncrement, count = 1 }: CounterProps) => {
+const Counter: FC<CounterProps> = ({ onDecrement, onIncrement, count }: CounterProps) => {
   return (
     <div className="counter">
       <Button classes="counter-btn" title="-" onClick={() => onDecrement()} />

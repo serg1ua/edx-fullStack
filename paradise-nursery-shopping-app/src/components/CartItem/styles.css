@@ -1,20 +1,26 @@
-.card {
-  width: 300px;
-  height: 350px;
+.cart-item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+  width: 500px;
+  height: 250px;
   background-color: white;
   border-radius: 3px;
-  color: black;
-  text-align: center;
+  margin: 3px auto;
 }
 
-.card > h3 {
-  margin: 0;
+.card-image {
+  display: flex;
+  align-items: center;
 }
 
-.card > p {
-  margin: 0;
+.card-content {
+  font-weight: bold;
+  margin-left: 10px;
+  justify-items: left;
+  text-align: left;
 }
 
-.card > Button {
-  margin: auto 0;
+.content {
+  margin: 0.5rem 0;
 }

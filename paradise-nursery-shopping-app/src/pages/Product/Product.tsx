@@ -2,7 +2,7 @@ import { useEffect, type FC } from 'react'
 import { useGetAllPlantsQuery } from '../../redux/api'
 import { useDispatch, useSelector } from '../../redux/store'
 import type { Plant } from '../../types'
-import { setCartItem } from '../../redux/slice/cartSlice'
+import { addCartItem } from '../../redux/slice/cartSlice'
 import Card from '../../components/Card/Card'
 import Header from '../../components/Header/Header'
 import './styles.css'
@@ -25,7 +25,7 @@ const Product: FC = () => {
   }, {})
 
   const handleAddToCart = (id: string) => {
-    dispatch(setCartItem(id))
+    dispatch(addCartItem(id))
   }
 
   useEffect(() => {

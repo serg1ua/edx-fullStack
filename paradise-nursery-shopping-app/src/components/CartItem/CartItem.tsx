@@ -1,24 +1,45 @@
 import { type FC } from 'react'
 import Button from '../../components/Button/Button'
-import type { Plant } from '../../types'
+import Counter from '../Counter/Counter'
+import './styles.css'
 
-type CardProps = Plant & {
-  handleAddToCart: (id: string) => void
-  isInCart?: boolean
+type CartItemProps = {
+  id: string
+  name: string
+  price: number
+  image?: string
+  contCartItemsById: (id: string) => number
+  handleIncrement: (id: string) => void
+  handleDelete: (id: string) => void
 }
 
-const Card: FC<CardProps> = (props: CardProps) => {
-  const { isInCart = false, id, name, image, description, price, handleAddToCart } = props
-
+const CartItem: FC<CartItemProps> = ({
+  id,
+  name,
+  image,
+  price,
+  contCartItemsById,
+  handleIncrement,
+  handleDelete,
+}: CartItemProps) => {
   return (
-    <div className="card">
-      <h3>{name}</h3>
-      <img src={image} alt="Plant Image" style={{ width: '200px', height: '200px' }} />
-      <p className="price">{price}</p>
-      <p>{description}</p>
-      <Button disabled={isInCart} title="Add to Cart" onClick={() => handleAddToCart(id)} />
+    <div className="cart-item">
+      <div className="card-image">
+        <img src={image} alt="Plant Image" style={{ width: '200px', height: '200px' }} />
+      </div>
+      <div className="card-content">
+        <h3 className="content">{name}</h3>
+        <p className="content">${price}</p>
+        <Counter
+          count={contCartItemsById(id)}
+          onDecrement={() => console.log('decrement')}
+          onIncrement={() => handleIncrement(id)}
+        />
+        <p className="content">Total: ${contCartItemsById(id) * Number(price)}</p>
+        <Button classes="delete-btn" title="Delete" onClick={() => handleDelete(id)} />
+      </div>
     </div>
   )
 }
 
-export default Card
+export default CartItem

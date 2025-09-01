@@ -1,13 +1,13 @@
 import type { FC } from 'react'
 import { useDispatch, useSelector } from '../../redux/store'
-import { setCartItem } from '../../redux/slice/cartSlice'
+import { addCartItem, deleteCartItems } from '../../redux/slice/cartSlice'
 import Header from '../../components/Header/Header'
+import CartItem from '../../components/CartItem/CartItem'
 import type { Plant } from '../../types'
-import Button from '../../components/Button/Button'
 import './styles.css'
-import Counter from '../../components/Counter/Counter'
 
 const ShoppingCart: FC = () => {
+  const dispatch = useDispatch()
   const plants = useSelector((state) => state.plants)
   const cartItems = useSelector((state) => state.cart)
 
@@ -20,26 +20,39 @@ const ShoppingCart: FC = () => {
     return acc
   }, [])
 
+  const contCartItemsById = (id: string) => cartItems.filter((cartItem) => cartItem === id).length
+
+  const getCartTotal = () =>
+    cartItems.reduce((acc, curr) => {
+      const plant = plantsInCart.find((plant) => plant.id === curr)
+      acc += plant?.price ?? 0
+      return acc
+    }, 0)
+
+  const handleIncrement = (id: string) => {
+    dispatch(addCartItem(id))
+  }
+
+  const handleDelete = (id: string) => {
+    dispatch(deleteCartItems(id))
+  }
+
   return (
     <>
       <Header />
       <div className="shopping-cart">
-        <h3>Total Cart Amount:</h3>
+        <h3>{cartItems.length ? `Total Cart Amount: $${getCartTotal()}` : 'Your Cart Empty'}</h3>
         {plantsInCart.map(({ id, name, image, price }) => (
-          <div className="shopping-cart-card" key={id}>
-            <div className="shopping-cart-card-image">
-              <img src={image} alt="Plant Image" style={{ width: '200px', height: '200px' }} />
-            </div>
-            <div className="shopping-cart-card-content">
-              <h3 className="content">{name}</h3>
-              <p className="content">{price}</p>
-              <Counter
-                onDecrement={() => console.log('decrement')}
-                onIncrement={() => console.log('increment')}
-              />
-              <p className="content">Total: $</p>
-              <Button classes="delete-btn" title="Delete" onClick={() => {}} />
-            </div>
+          <div key={id}>
+            <CartItem
+              id={id}
+              name={name}
+              image={image}
+              price={price}
+              contCartItemsById={contCartItemsById}
+              handleIncrement={handleIncrement}
+              handleDelete={handleDelete}
+            />
           </div>
         ))}
       </div>

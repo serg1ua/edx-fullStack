@@ -10,7 +10,7 @@ const initialState: Plant[] = [
     name: 'Janet Craig',
     description: "Dracaena deremensis 'Janet Craig'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5556.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '9b97aef1-20a4-5620-af90-7d64dadb414e',
@@ -18,7 +18,7 @@ const initialState: Plant[] = [
     name: 'Lady palm',
     description: 'Rhapis excelsa',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5725.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '215b33f4-66d2-5601-b776-4501f2bd50b7',
@@ -26,7 +26,7 @@ const initialState: Plant[] = [
     name: 'Tailflower',
     description: 'Anthurium X',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5491.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '55a0e4fa-0717-521d-9671-0fc9095f2055',
@@ -34,7 +34,7 @@ const initialState: Plant[] = [
     name: 'Elephant ear',
     description: 'Alocasia X amazonica',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5486.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'f66ad303-c2ff-55ac-8689-036553b740fe',
@@ -42,7 +42,7 @@ const initialState: Plant[] = [
     name: 'Herringbone',
     description: 'Maranta leuconeura erythroneura',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5657.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '3d205401-ce59-5ca4-8e0d-3c122c207fc0',
@@ -50,7 +50,7 @@ const initialState: Plant[] = [
     name: 'Guzmania',
     description: "Guzmenia 'Marjan'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5632.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'f9f9bc5a-d562-5c55-a027-819eb64eee91',
@@ -58,7 +58,7 @@ const initialState: Plant[] = [
     name: 'Peace lily',
     description: "Spathiphyllum 'Ceres'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5758.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '920eb8e7-545d-5bf6-86c8-e4888d69f8d4',
@@ -66,7 +66,7 @@ const initialState: Plant[] = [
     name: 'Oleander',
     description: 'Nerium oleander',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5669.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '7e5fbde3-5a09-557f-a4b2-6f94a4d21fee',
@@ -74,7 +74,7 @@ const initialState: Plant[] = [
     name: 'African evergreen',
     description: "Syngonium podophyllum 'White Lightning'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5774.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '3d49c8bc-0f49-548c-a2e0-9b0e0db2ca09',
@@ -82,7 +82,7 @@ const initialState: Plant[] = [
     name: 'Bird nest Anthurium',
     description: 'Anthurium hookeri',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5489.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'cb4a3ce5-4d8b-5598-b9dc-60c5b6492e1a',
@@ -90,7 +90,7 @@ const initialState: Plant[] = [
     name: 'Bella palm',
     description: 'Chamaedorea elegans',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5518.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '1d206a42-e812-53ce-99f0-5fdbbc75d530',
@@ -98,7 +98,7 @@ const initialState: Plant[] = [
     name: 'Fabian Aralia',
     description: 'Polyscias scutellaria',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5714.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '0fc4faa6-2945-5b76-9051-3955bfca8af9',
@@ -106,7 +106,7 @@ const initialState: Plant[] = [
     name: 'Weeping fig',
     description: "Ficus benjamina 'Monique'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5612.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '9baf7e3d-f324-57b5-9958-acb611fb15d0',
@@ -114,7 +114,7 @@ const initialState: Plant[] = [
     name: 'Bird nest Anthurium',
     description: 'Anthurium hookeri',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5490.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '8ba5d93c-84c6-5a7b-8f81-41b5465dff88',
@@ -122,7 +122,7 @@ const initialState: Plant[] = [
     name: 'Fish tail palm',
     description: 'Caryota mitis',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5511.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'd38db4db-0cdb-5ce3-afd2-e094e3881e28',
@@ -130,7 +130,7 @@ const initialState: Plant[] = [
     name: 'Bamboo palm',
     description: 'Chamaedorea erumpens',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5521.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '19d70602-fd05-58f2-a705-ea42752d6357',
@@ -138,7 +138,7 @@ const initialState: Plant[] = [
     name: 'Elephant ear',
     description: 'Alocasias X Amazonica var',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5488.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'cc45f6bc-db72-56b4-b853-973288c40160',
@@ -146,7 +146,7 @@ const initialState: Plant[] = [
     name: 'Snake plant',
     description: 'Sansevieria trifasciata Laurentii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5735.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '967a5aac-5f28-5253-9dc6-88f68a041d7a',
@@ -154,7 +154,7 @@ const initialState: Plant[] = [
     name: 'Stiped calathea',
     description: 'Calathea ornata Rosea lineata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5504.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '9155bd78-ada8-504c-a8f6-874fb3ea06bc',
@@ -162,7 +162,7 @@ const initialState: Plant[] = [
     name: 'Rose grape',
     description: 'Medinilla magnifica',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5660.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '4c805dca-76bb-5390-8558-684866b172b9',
@@ -170,7 +170,7 @@ const initialState: Plant[] = [
     name: 'Dumcane',
     description: 'Dieffenbachia amoena Tropic Snow',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5544.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '24e20ed2-b669-5044-aa14-3e4c166e3ce7',
@@ -178,7 +178,7 @@ const initialState: Plant[] = [
     name: 'Willow Ficus',
     description: 'Ficus maclellandii Alii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5623.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '9836efdb-fdf8-5272-be0c-4fe16b52dc61',
@@ -186,7 +186,7 @@ const initialState: Plant[] = [
     name: 'Janet Craig',
     description: "Dracaena deremensis 'Janet Craig'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5554.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'f75fa6e6-a759-5e37-b360-6c47619b7ef4',
@@ -194,7 +194,7 @@ const initialState: Plant[] = [
     name: 'Parlor ivy',
     description: 'Philodendron scandens oxycardium',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5691.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'fa443431-d2c7-55ef-b2c3-37ba204a1a17',
@@ -202,7 +202,7 @@ const initialState: Plant[] = [
     name: 'Elephant ear',
     description: 'Alocasia nebula Imperialis',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5485.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '5ae9b604-878b-5093-9090-b8f48e69a0b9',
@@ -210,7 +210,7 @@ const initialState: Plant[] = [
     name: 'False aralia',
     description: 'Schefflera elegantissima',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5752.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'bd08169e-73b5-58ac-b75d-d9a2870f6960',
@@ -218,7 +218,7 @@ const initialState: Plant[] = [
     name: 'Bella palm',
     description: 'Chamaedorea elegans',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5519.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '2655164e-f2be-5021-bf8a-7aa56a6d290b',
@@ -226,7 +226,7 @@ const initialState: Plant[] = [
     name: 'Bamboo palm',
     description: 'Chamaedorea seifrizii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5525.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'e1a9049e-92f7-5c4e-a39d-7b2edec978d0',
@@ -234,7 +234,7 @@ const initialState: Plant[] = [
     name: 'Dumcane',
     description: "Dieffenbachia 'Star Bright'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5550.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'f9772525-ee89-5c23-b377-589e6ac883bc',
@@ -242,7 +242,7 @@ const initialState: Plant[] = [
     name: 'African evergreen',
     description: "Syngonium podophyllum 'White Lightning'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5773.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '67de4789-3363-52a9-9d1d-9ecf9f880fae',
@@ -250,7 +250,7 @@ const initialState: Plant[] = [
     name: 'Christ-thorn',
     description: 'Euphorbia milii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5602.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'a5178737-1b07-56b8-8667-0be3477fef48',
@@ -258,7 +258,7 @@ const initialState: Plant[] = [
     name: 'Spineless yucca',
     description: 'Yucca elephantipes',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5788.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'd74f0442-5304-5c01-9a98-e0541d7d5bd8',
@@ -266,7 +266,7 @@ const initialState: Plant[] = [
     name: 'Giant Candelabra tree',
     description: 'Euphorbia ingens',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5601.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '423e2593-5a1b-52d5-a0d9-b07f5554e507',
@@ -274,7 +274,7 @@ const initialState: Plant[] = [
     name: 'English ivy',
     description: "Hedera helix 'Gold Baby'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5639.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'c9697ff8-b0c4-5a87-aff1-eb7437dd4ac0',
@@ -282,7 +282,7 @@ const initialState: Plant[] = [
     name: 'Areca palm',
     description: 'Dypsis lutescens',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5587.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'dfa12209-629d-5044-a07d-36ee25775ceb',
@@ -290,7 +290,7 @@ const initialState: Plant[] = [
     name: 'Chinese hibiscus',
     description: 'Hibiscus rosa-sinensis',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5645.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'ee5c93b5-7e0b-5c17-bb32-cd30d98668a6',
@@ -298,7 +298,7 @@ const initialState: Plant[] = [
     name: 'Hawaiian elf',
     description: 'Schefflera arboricola',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5742.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'c30b3b99-9d23-5067-9bbc-c5ffaa46ae41',
@@ -306,7 +306,7 @@ const initialState: Plant[] = [
     name: 'Rubber plant',
     description: "Ficus elastica 'Tineke'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5620.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'f0ff5e57-0a18-570b-8e74-fa38c5508c46',
@@ -314,7 +314,7 @@ const initialState: Plant[] = [
     name: 'Hawaiian elf',
     description: "Schefflera arboricola 'Gold Cappela'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5747.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '803b56df-248b-5d15-ac76-15404e4b8fe2',
@@ -322,7 +322,7 @@ const initialState: Plant[] = [
     name: 'Madagascar Palm',
     description: 'Pachypodium geayi',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5674.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '2af000f6-8357-5d0c-aae0-6016d308061c',
@@ -330,7 +330,7 @@ const initialState: Plant[] = [
     name: 'Cape mahogany',
     description: 'Trichilia dregei',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5777.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '84d95426-c046-51db-8613-ed3c3d60185c',
@@ -338,7 +338,7 @@ const initialState: Plant[] = [
     name: 'Golden Pothos',
     description: 'Epipremnum aureum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5592.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'a81fc3d5-80bb-5baa-84b4-b882e1ec9029',
@@ -346,7 +346,7 @@ const initialState: Plant[] = [
     name: 'Weeping fig',
     description: 'Ficus benjamina',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5604.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '21cee3a1-582f-568f-b3d7-a2eeaa66ff73',
@@ -354,7 +354,7 @@ const initialState: Plant[] = [
     name: 'Madagascar dragon tree',
     description: 'Dracaena marginata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5572.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '6f981194-b4fd-5df5-bea3-2cf2dff76e2d',
@@ -362,7 +362,7 @@ const initialState: Plant[] = [
     name: 'Algerian ivy',
     description: 'Hedera canariensis',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5634.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '02b1c9a0-8bc0-5104-93fd-20c38bf4174e',
@@ -370,7 +370,7 @@ const initialState: Plant[] = [
     name: 'Umbella plant',
     description: "Schefflera actinophylla 'Renegade'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5741.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '1066840a-0631-512c-a39d-8cd97b272fd6',
@@ -378,7 +378,7 @@ const initialState: Plant[] = [
     name: 'Malaysian Dracaena',
     description: 'Dracaena reflexa',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5578.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'dd248d1b-b098-517f-b872-d7d4e7b30e68',
@@ -386,7 +386,7 @@ const initialState: Plant[] = [
     name: 'Madagascar dragon tree',
     description: 'Dracaena marginata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5575.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '399cd296-db26-5dc1-ab3b-82f2e8410528',
@@ -394,7 +394,7 @@ const initialState: Plant[] = [
     name: 'Fernleaf Philodendron',
     description: 'Philodendron pinnatifidum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5686.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'ae3b2aa3-32f4-5baa-8ccf-6299bbcbdadc',
@@ -402,7 +402,7 @@ const initialState: Plant[] = [
     name: 'Tailflower',
     description: 'Anthurium X',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5492.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'eff363a6-e4f6-535d-a12d-866125558cd2',
@@ -410,7 +410,7 @@ const initialState: Plant[] = [
     name: 'Zz plant',
     description: 'Zamioculcas zamifolia',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5789.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '91540470-f29d-51b6-ace4-509ebc2a4d00',
@@ -418,7 +418,7 @@ const initialState: Plant[] = [
     name: 'Variegated Balfour aralia',
     description: "Polyscias pinnata 'Marginata'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5709.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '6fcfb288-5a1f-53aa-ba7d-fcad91b11aab',
@@ -426,7 +426,7 @@ const initialState: Plant[] = [
     name: 'Maindenhair',
     description: 'Adiantum raddianum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5437.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: '44529836-2afe-5a8b-b152-ca1c7a0112f3',
@@ -434,7 +434,7 @@ const initialState: Plant[] = [
     name: 'Hawaiian elf',
     description: "Schefflera arboricola 'Gold Cappela'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5749.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '88724c5f-bfce-57f9-a226-c3bda0cbeb82',
@@ -442,7 +442,7 @@ const initialState: Plant[] = [
     name: 'Madagascar dragon tree',
     description: 'Dracaena marginata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5576.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '05c88eae-9e1f-57dc-b5d0-b3e248411a24',
@@ -450,7 +450,7 @@ const initialState: Plant[] = [
     name: 'Baby rubber plant',
     description: 'Peperomia obtusifolia',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5679.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '537f9c6b-9a10-5cf4-b319-9dfca5c52fbf',
@@ -458,7 +458,7 @@ const initialState: Plant[] = [
     name: 'Cornstalk plant',
     description: "Dracaena fragrans 'Massangeana'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5565.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '464c0f5e-73a8-5e6b-a083-ea2aba5904be',
@@ -466,7 +466,7 @@ const initialState: Plant[] = [
     name: 'White bird of paradise',
     description: 'Strelitzia nicolai',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5769.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '05824fb3-8e00-594f-abce-c82580960cd9',
@@ -474,7 +474,7 @@ const initialState: Plant[] = [
     name: 'Burro-tail',
     description: 'Sedum morganianum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5756.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '61a18703-167a-553a-b01b-7a7e64e8ec77',
@@ -482,7 +482,7 @@ const initialState: Plant[] = [
     name: 'Cornstalk plant',
     description: "Dracaena fragrans 'Massangeana'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5566.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '059b0bb3-2504-5a8b-9545-aafecfa9deb2',
@@ -490,7 +490,7 @@ const initialState: Plant[] = [
     name: 'Chicken gizard aralia',
     description: 'Polyscias crispata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5701.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'f49f166a-07c0-5742-8ae5-843a345600f7',
@@ -498,7 +498,7 @@ const initialState: Plant[] = [
     name: 'White bird of paradise',
     description: 'Strelitzia nicolai',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5768.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '843545b3-1e43-5afc-bd5a-9ad3b3b3a8d6',
@@ -506,7 +506,7 @@ const initialState: Plant[] = [
     name: 'Variegated Balfour aralia',
     description: "Polyscias pinnata 'Marginata'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5711.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '70161282-9ec1-5a7d-ad7d-e2607b16ed46',
@@ -514,7 +514,7 @@ const initialState: Plant[] = [
     name: 'Dumcane',
     description: "Dieffenbachia maculata 'Carina'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5549.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '5caa1476-154b-5a6c-9c3f-cc0933c9e1fe',
@@ -522,7 +522,7 @@ const initialState: Plant[] = [
     name: 'Silver Calathea',
     description: "Calathea pictura 'Argentea'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5505.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '698cf416-7013-5ce7-995b-607282ec5b2f',
@@ -530,7 +530,7 @@ const initialState: Plant[] = [
     name: 'Burro-tail',
     description: 'Sedum morganianum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5757.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '8aea8e17-dc7e-5349-a8e4-0460d68cbc97',
@@ -538,7 +538,7 @@ const initialState: Plant[] = [
     name: 'Lacy tree-philodendron',
     description: 'Philodendron selloum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5693.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '18ee7db1-4caf-5354-9da8-cb2c50c902fe',
@@ -546,7 +546,7 @@ const initialState: Plant[] = [
     name: 'English ivy',
     description: 'Hedera helix variegata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5641.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'ab11fed6-3b65-52f0-b478-b30c6fe5cb97',
@@ -554,7 +554,7 @@ const initialState: Plant[] = [
     name: 'Elephant foot',
     description: 'Nolina guatemalensis',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5670.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '2f414d67-5aeb-5d77-acf2-4a0948a0daab',
@@ -562,7 +562,7 @@ const initialState: Plant[] = [
     name: 'Guzmania',
     description: "Guzmania 'Empire'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5628.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '200d6e4f-a42f-5c26-9b00-dfc774af68c3',
@@ -570,7 +570,7 @@ const initialState: Plant[] = [
     name: 'Kentia palm',
     description: 'Howea forsteriana',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5650.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'b4012c93-402f-5fe1-9eeb-bc542276bbbc',
@@ -578,7 +578,7 @@ const initialState: Plant[] = [
     name: 'Cast iron plant',
     description: 'Aspidistra elatior',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5496.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'a19b63d3-3615-59ec-ab2f-0531e71553d5',
@@ -586,7 +586,7 @@ const initialState: Plant[] = [
     name: 'Parlor ivy',
     description: 'Philodendron scandens oxycardium',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5690.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '77b6e49c-db85-5376-87d7-6ef5c0f4b481',
@@ -594,7 +594,7 @@ const initialState: Plant[] = [
     name: 'Weeping fig',
     description: "Ficus benjamina 'Midnight'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5606.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'd9654532-d4a2-5873-83e2-e90f51573813',
@@ -602,7 +602,7 @@ const initialState: Plant[] = [
     name: 'Birdnest sansevieria',
     description: "Sansevieria trifasciata 'Hahnii'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5731.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '171368f9-fff3-5d5a-8bcd-03cd157f32fc',
@@ -610,7 +610,7 @@ const initialState: Plant[] = [
     name: 'Boston fern',
     description: 'Nephrolepis exaltata var.',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5668.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'a3b6fc5a-6dec-5ea5-a4c2-ffbab96119f4',
@@ -618,7 +618,7 @@ const initialState: Plant[] = [
     name: 'Dumcane',
     description: "Dieffenbachia maculata 'Camille'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5546.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '0130a54a-28e5-5034-9892-6b4cdef1bbbf',
@@ -626,7 +626,7 @@ const initialState: Plant[] = [
     name: 'Kentia palm',
     description: 'Howea forsteriana',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5648.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '21528bca-39c4-5046-a8d4-d6e96910a631',
@@ -634,7 +634,7 @@ const initialState: Plant[] = [
     name: 'Fish tail palm',
     description: 'Caryota mitis',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5512.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '203b45bd-7421-5152-a51b-14535e9e48ee',
@@ -642,7 +642,7 @@ const initialState: Plant[] = [
     name: 'Madagascar Palm',
     description: 'Pachypodium geayi',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5675.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'd0458552-9808-5e9e-ac3f-22bb5a917b19',
@@ -650,7 +650,7 @@ const initialState: Plant[] = [
     name: 'Croton',
     description: 'Codiaeum AFD5',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5530.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'a4aed5f1-a23d-512d-9eb3-cb60f3d7ac4e',
@@ -658,7 +658,7 @@ const initialState: Plant[] = [
     name: 'Peace lily',
     description: "Spathiphyllum 'Supreme'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5766.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'a2ef7355-0446-5d0d-9205-db039e87e0ac',
@@ -666,7 +666,7 @@ const initialState: Plant[] = [
     name: 'Umbella plant',
     description: "Schefflera actinophylla 'Amate'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5737.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '7e42a50a-b54d-54bb-9080-c9afffa1137f',
@@ -674,7 +674,7 @@ const initialState: Plant[] = [
     name: 'Grape Ivy',
     description: "Cissus rhombifolia 'Ellen Danica'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5529.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '3c484e77-f184-53ec-a789-9bd26761a9f4',
@@ -682,7 +682,7 @@ const initialState: Plant[] = [
     name: 'Miniature fishtail',
     description: 'Chamaedorea metallica',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5523.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '69bd6c60-3ad9-5a31-8860-25565e374b26',
@@ -690,7 +690,7 @@ const initialState: Plant[] = [
     name: 'Silver Lace Fern',
     description: "Pteris ensiformis 'Evergemiensis'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5720.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: '4a38bc3d-70a7-5a8d-9a8c-30fa6e70e260',
@@ -698,7 +698,7 @@ const initialState: Plant[] = [
     name: 'Rubber plant',
     description: "Ficus elastica 'Burgandy'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5615.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '2b259473-6176-56c7-9b8b-ae10a6602220',
@@ -706,7 +706,7 @@ const initialState: Plant[] = [
     name: 'Wax plant',
     description: "Hoya carnosa 'Exotica'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5651.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '8279078e-e8da-5e01-a94d-7221e8276b9e',
@@ -714,7 +714,7 @@ const initialState: Plant[] = [
     name: 'Tailflower',
     description: 'Anthurium X',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5493.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '039998d3-60ae-54ec-8b97-c850183e0045',
@@ -722,7 +722,7 @@ const initialState: Plant[] = [
     name: 'Balfour aralia',
     description: "Polyscias pinnatta 'Lemon Lime'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5708.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'f11b0774-153c-5325-9e63-36d5b172cda1',
@@ -730,7 +730,7 @@ const initialState: Plant[] = [
     name: 'Croton',
     description: 'Codiaeum petra',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5532.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '6b1fcf80-c5a4-551d-9b4f-9c408007b83d',
@@ -738,7 +738,7 @@ const initialState: Plant[] = [
     name: 'Bronze Anthurium',
     description: 'Anthurium superbum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5495.jpg',
-    price: '$12',
+    price: 12,
   },
   {
     id: 'ba60b7ee-90eb-5c7d-9002-3bd927161473',
@@ -746,7 +746,7 @@ const initialState: Plant[] = [
     name: 'Rubber plant',
     description: "Ficus elastica 'Robusta'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5616.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'e9e717e2-b22e-574d-864a-9fa43aaa4a2c',
@@ -754,7 +754,7 @@ const initialState: Plant[] = [
     name: 'Jade Plant',
     description: 'Crassula argentea',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5536.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '5ac61059-3daf-5fdc-9201-2488434078d1',
@@ -762,7 +762,7 @@ const initialState: Plant[] = [
     name: 'Weeping fig',
     description: "Ficus benjamina 'Monique'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5610.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '0a4b455c-3b0a-501c-9aba-7790ee5a38c1',
@@ -770,7 +770,7 @@ const initialState: Plant[] = [
     name: 'Kentia palm',
     description: 'Howea forsteriana',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5649.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '0ac3f4ef-89de-51ce-b956-f56bab242128',
@@ -778,7 +778,7 @@ const initialState: Plant[] = [
     name: 'Chinese hibiscus',
     description: 'Hibiscus rosa-sinensis',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5643.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '532a94e1-69da-5a8d-b7a7-976245c334b2',
@@ -786,7 +786,7 @@ const initialState: Plant[] = [
     name: 'Lady palm',
     description: 'Rhapis excelsa',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5724.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'cea9c637-68b5-5d85-8057-91505237141f',
@@ -794,7 +794,7 @@ const initialState: Plant[] = [
     name: 'African evergreen',
     description: "Syngonium podophyllum 'Pink Allusion'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5772.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'b9f4943f-a073-53af-82f0-b4d725af0f78',
@@ -802,7 +802,7 @@ const initialState: Plant[] = [
     name: 'Dragon-tree Agave',
     description: 'Agave attenuata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5443.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: '0e6c7c71-e6a6-5b9e-abed-457e2ba3d8e1',
@@ -810,7 +810,7 @@ const initialState: Plant[] = [
     name: 'Cast iron plant',
     description: 'Aspidistra elatior Minor',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5498.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '4c609163-0848-590c-89ec-22f97fbc1336',
@@ -818,7 +818,7 @@ const initialState: Plant[] = [
     name: 'Pink quill',
     description: 'Tillandsia cyanea',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5776.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '37ef1b22-583f-5310-8ed3-411c479f4087',
@@ -826,7 +826,7 @@ const initialState: Plant[] = [
     name: 'Ming Aralia',
     description: "Polyscias fruticosa 'Elegans'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5706.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'cd6b52e3-253a-54db-bc48-f32647dfb702',
@@ -834,7 +834,7 @@ const initialState: Plant[] = [
     name: 'False aralia',
     description: 'Schefflera elegantissima',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5753.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'e6121be2-dddb-58fd-bb66-d77317d4986f',
@@ -842,7 +842,7 @@ const initialState: Plant[] = [
     name: 'English ivy',
     description: "Hedera helix 'Hermania'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5640.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '9c7e2062-cc51-505d-8fae-ecb8ba7370b9',
@@ -850,7 +850,7 @@ const initialState: Plant[] = [
     name: 'Guzmania',
     description: "Guzmania 'Rana'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5630.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '0a0e8ea3-b199-5f0b-a86e-6eaf01b766b5',
@@ -858,7 +858,7 @@ const initialState: Plant[] = [
     name: 'Korean rock fern',
     description: 'Polystichum tsus-simense',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5717.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: '898c4cc6-346a-5428-bb0f-7a1f9e8944de',
@@ -866,7 +866,7 @@ const initialState: Plant[] = [
     name: 'Weeping fig',
     description: "Ficus benjamina 'Midnight'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5609.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '5ccb0825-52d7-567f-885f-dc65aa5824c9',
@@ -874,7 +874,7 @@ const initialState: Plant[] = [
     name: 'Weeping fig',
     description: "Ficus benjamina 'Midnight'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5607.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'bf408e40-9076-5772-8e13-f1ca7c36a275',
@@ -882,7 +882,7 @@ const initialState: Plant[] = [
     name: 'Snake plant',
     description: 'Sansevieria trifasciata var',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5736.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'a51b7e6f-8529-5839-835b-cca255b842aa',
@@ -890,7 +890,7 @@ const initialState: Plant[] = [
     name: 'Picta Philodendron',
     description: 'Scindapsus pictus argyraeus',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5754.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '7ed8ccea-0c95-556d-80e4-4b36009f6228',
@@ -898,7 +898,7 @@ const initialState: Plant[] = [
     name: 'Fish tail palm',
     description: 'Caryota mitis',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5510.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '9c0a3714-af55-5480-b99c-2ed8278b2218',
@@ -906,7 +906,7 @@ const initialState: Plant[] = [
     name: 'Bamboo palm',
     description: 'Chamaedorea seifrizii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5526.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '9c4141f7-c5d6-5b6e-8848-3a1fc49c01b2',
@@ -914,7 +914,7 @@ const initialState: Plant[] = [
     name: 'Miniature fishtail',
     description: 'Chamaedorea metallica',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5522.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '7a698b73-71e7-5f59-b2eb-113383159521',
@@ -922,7 +922,7 @@ const initialState: Plant[] = [
     name: 'Orchid cactus',
     description: 'Epiphyllum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5591.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'c6ee4de2-eeb7-5d76-8eea-fc4e00e3ce2d',
@@ -930,7 +930,7 @@ const initialState: Plant[] = [
     name: 'Adonidia',
     description: 'Veitchia merrillii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5778.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '6daa7582-cc61-5196-8278-e9c16e22c9af',
@@ -938,7 +938,7 @@ const initialState: Plant[] = [
     name: 'Variegated lily-turf',
     description: "Liriope muscari ' Variegata'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5655.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'b1c94d56-198f-524e-acc7-5d7096a3d4af',
@@ -946,7 +946,7 @@ const initialState: Plant[] = [
     name: 'Splitleaf Philodendron',
     description: 'Monstera deliciosa',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5662.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'b5eba569-d847-507e-8830-171b3802d6f8',
@@ -954,7 +954,7 @@ const initialState: Plant[] = [
     name: 'Elephant foot',
     description: 'Nolina recurvata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5672.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'bd30f0a0-7646-5356-bfc6-be14a083dc53',
@@ -962,7 +962,7 @@ const initialState: Plant[] = [
     name: 'Cretan brake',
     description: "Pteris cretica 'Parkeri'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5719.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: '7d10dbb7-9103-5b7d-b338-8c8d4eafabdf',
@@ -970,7 +970,7 @@ const initialState: Plant[] = [
     name: 'Peace lily',
     description: "Spathiphyllum 'Starlight'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5765.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'a32e21ec-2b25-59f1-97d7-d50815ecac21',
@@ -978,7 +978,7 @@ const initialState: Plant[] = [
     name: 'Silver vase',
     description: 'Aechmea fatsiata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5438.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: '0e02a256-8e65-5a2b-9fdd-80782c1f2908',
@@ -986,7 +986,7 @@ const initialState: Plant[] = [
     name: 'African fern pine',
     description: 'Podocarpus gracilior',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5699.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'df9acc20-1dfa-5744-9994-f7364102fef5',
@@ -994,7 +994,7 @@ const initialState: Plant[] = [
     name: 'Indian kale',
     description: 'Xanthosoma lindenii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5785.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'eb99965a-161b-5306-9b5f-44ce20ec3c1f',
@@ -1002,7 +1002,7 @@ const initialState: Plant[] = [
     name: 'English ivy',
     description: "Hedera helix 'Garland'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5638.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'ca712268-773a-5de1-82e1-f93306f46618',
@@ -1010,7 +1010,7 @@ const initialState: Plant[] = [
     name: 'Fidleleaf fig',
     description: 'Ficus lyrata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5622.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'eef56d69-ad1d-5d8a-8211-dbc796be1d69',
@@ -1018,7 +1018,7 @@ const initialState: Plant[] = [
     name: 'Rubber plant',
     description: "Ficus elastica 'Robusta'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5618.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '8572e20a-dd4e-5e47-9cfe-ea47704a3f34',
@@ -1026,7 +1026,7 @@ const initialState: Plant[] = [
     name: 'Japanese Aralia',
     description: 'Fatsia japonica',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5603.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'c7c0e517-871b-5ee0-8844-e98238a22cd3',
@@ -1034,7 +1034,7 @@ const initialState: Plant[] = [
     name: 'Miniature fishtail',
     description: 'Chamaedorea metallica',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5524.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '79917dec-c193-58b7-94dc-1e86e712193c',
@@ -1042,7 +1042,7 @@ const initialState: Plant[] = [
     name: 'Variegated Carabbean Agave',
     description: "Agave angustilolia 'Marginata'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5442.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: '29df5730-99c6-528e-9ef6-3111771de17d',
@@ -1050,7 +1050,7 @@ const initialState: Plant[] = [
     name: 'Elephant ear',
     description: 'Alocasias X Amazonica',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5487.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '2f764797-27eb-56ae-a4e3-04ae90001c65',
@@ -1058,7 +1058,7 @@ const initialState: Plant[] = [
     name: 'Staghorn fern',
     description: 'Platycerium bifurcatum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5698.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '387a4d9d-a312-5c2c-95e9-3a80017f37e2',
@@ -1066,7 +1066,7 @@ const initialState: Plant[] = [
     name: 'Peace lily',
     description: "Spathiphyllum 'Sensation'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5763.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '7ec4fe2e-d380-5cd9-974e-31ef43812e15',
@@ -1074,7 +1074,7 @@ const initialState: Plant[] = [
     name: 'Variegated Balfour aralia',
     description: "Polyscias pinnata 'Marginata'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5712.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'a6dd88aa-10ec-512a-8860-160f9921137e',
@@ -1082,7 +1082,7 @@ const initialState: Plant[] = [
     name: 'Cast iron plant',
     description: 'Aspidistra elatior',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5497.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '24755b43-6018-5a62-a537-5862b96b8829',
@@ -1090,7 +1090,7 @@ const initialState: Plant[] = [
     name: 'Hawaiian elf',
     description: 'Schefflera arboricola',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5744.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '1b858ccd-8933-5dab-8754-dcb1ec23574b',
@@ -1098,7 +1098,7 @@ const initialState: Plant[] = [
     name: 'Guzmania',
     description: "Guzmania 'Claret'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5627.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '900d5b64-8dad-512a-aba0-59875437ab38',
@@ -1106,7 +1106,7 @@ const initialState: Plant[] = [
     name: 'Lipstick',
     description: 'Aeschynanthus lobianus',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5441.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'c76f32cc-6ea1-5814-bf65-11be7686ba41',
@@ -1114,7 +1114,7 @@ const initialState: Plant[] = [
     name: 'Lady palm',
     description: 'Rhapis excelsa',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5723.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '1741c2da-8907-57ef-b794-0e124a61a8ae',
@@ -1122,7 +1122,7 @@ const initialState: Plant[] = [
     name: 'Velvet-leaf vine',
     description: 'Philodendron micans',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5684.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'dc2a7a0f-59fe-5753-8827-a9b9513ecc8a',
@@ -1130,7 +1130,7 @@ const initialState: Plant[] = [
     name: 'Guzmania',
     description: "Guzmania 'Mariposa'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5629.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '9cf4bef9-c31b-5137-aab6-829d945af8b7',
@@ -1138,7 +1138,7 @@ const initialState: Plant[] = [
     name: 'Rose grape',
     description: 'Medinilla magnifica',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5659.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'be76b95e-4e38-5acc-8ad3-065cda54dff2',
@@ -1146,7 +1146,7 @@ const initialState: Plant[] = [
     name: 'Zz plant',
     description: 'Zamioculcas zamifolia',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5790.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'ff851376-1e75-569a-bfdf-053129ab533c',
@@ -1154,7 +1154,7 @@ const initialState: Plant[] = [
     name: 'Creeping fig',
     description: "Ficus pumila 'Curl'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5626.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '00602fc8-6aee-5ad0-90ee-90c6108541cf',
@@ -1162,7 +1162,7 @@ const initialState: Plant[] = [
     name: 'Spindle palm',
     description: 'Hyophorbe verschaffeltii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5653.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '700ae39f-8044-5314-a598-0f8546b95154',
@@ -1170,7 +1170,7 @@ const initialState: Plant[] = [
     name: 'Willow Ficus',
     description: 'Ficus maclellandii Alii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5624.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'dc76a896-655b-5e07-b8c3-44c7b1c1f868',
@@ -1178,7 +1178,7 @@ const initialState: Plant[] = [
     name: 'Fernleaf Philodendron',
     description: 'Philodendron pinnatifidum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5688.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '0dc7a816-f254-56c3-b39b-674b78b6f7f3',
@@ -1186,7 +1186,7 @@ const initialState: Plant[] = [
     name: 'African evergreen',
     description: "Syngonium podophyllum 'Pink Allusion'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5771.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '2d294db4-83e8-57bf-92ef-c432ffa7e08f',
@@ -1194,7 +1194,7 @@ const initialState: Plant[] = [
     name: 'Golden Barrel',
     description: 'Echinocactus grusonii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5590.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '76e0cfbf-d25c-5ba4-a65a-a2d6d6fb43c0',
@@ -1202,7 +1202,7 @@ const initialState: Plant[] = [
     name: 'Parrot palm',
     description: 'Syagrus schizophylla',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5770.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '36d30eed-f631-5eec-b496-6fd74063cb89',
@@ -1210,7 +1210,7 @@ const initialState: Plant[] = [
     name: 'Weeping fig',
     description: 'Ficus benjamina Monique',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5611.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '5b1bae12-290e-5244-aeb7-61bd98e88660',
@@ -1218,7 +1218,7 @@ const initialState: Plant[] = [
     name: 'Bower plant',
     description: 'Pandorea jasminoides',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5676.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'aa0890d8-7b6f-5e09-9472-205c6de2759e',
@@ -1226,7 +1226,7 @@ const initialState: Plant[] = [
     name: 'Spindle palm',
     description: 'Hyophorbe verschaffeltii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5652.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'f1e91192-e8b3-5b9b-9d85-dacd43434321',
@@ -1234,7 +1234,7 @@ const initialState: Plant[] = [
     name: 'Stromante',
     description: 'Calathea stromata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5508.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '783cf1a6-6a68-52d1-9147-29892cfa9345',
@@ -1242,7 +1242,7 @@ const initialState: Plant[] = [
     name: 'Ming Aralia',
     description: 'Polyscias fruticosa',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5705.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '158213c8-fa77-518d-ad5f-aae874a7e609',
@@ -1250,7 +1250,7 @@ const initialState: Plant[] = [
     name: 'Holly-fern',
     description: 'Cyrtomium falcatum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5541.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'aac5462c-6c1e-53d7-827a-4d3be7efc9c1',
@@ -1258,7 +1258,7 @@ const initialState: Plant[] = [
     name: 'Snake plant',
     description: 'Sansevieria trifasciata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5729.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '508d63a6-2cbd-5f49-9c24-ef06420ae38a',
@@ -1266,7 +1266,7 @@ const initialState: Plant[] = [
     name: 'Fernleaf Philodendron',
     description: 'Philodendron pinnatifidum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5687.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '3206e99d-0f7b-53f3-9c58-0282ae09bb8f',
@@ -1274,7 +1274,7 @@ const initialState: Plant[] = [
     name: 'Grape Ivy',
     description: 'Cissus rhombifolia',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5528.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '8d36aedd-55f0-5fa6-aa91-24ae98ba47a4',
@@ -1282,7 +1282,7 @@ const initialState: Plant[] = [
     name: 'Rubber plant',
     description: "Ficus elastica 'Burgandy'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5614.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'f77d97bd-b719-56e7-8b75-68ae945837ec',
@@ -1290,7 +1290,7 @@ const initialState: Plant[] = [
     name: 'Boston fern',
     description: 'Nephrolepis exaltata var.',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5666.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '7a4e4159-b278-5d1b-b125-3c234d7589c0',
@@ -1298,7 +1298,7 @@ const initialState: Plant[] = [
     name: 'Phrynium',
     description: 'Ctenanthe lubbersiana',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5538.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'f9f0a85e-b32c-529e-8637-6014a5137151',
@@ -1306,7 +1306,7 @@ const initialState: Plant[] = [
     name: 'Tree-Cereus',
     description: 'Cereus peruvianus',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5513.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '6d0f150f-3e02-529d-ab97-3791f62b4e28',
@@ -1314,7 +1314,7 @@ const initialState: Plant[] = [
     name: 'Chicken gizard aralia',
     description: 'Polyscias crispata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5700.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '4808e884-187e-5be5-90e4-a5d74757f0ab',
@@ -1322,7 +1322,7 @@ const initialState: Plant[] = [
     name: 'Fabian Aralia',
     description: 'Polyscias scutellaria',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5713.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'aebf3bea-09fe-5279-a11d-2d00eb2d55f3',
@@ -1330,7 +1330,7 @@ const initialState: Plant[] = [
     name: 'Bougainvillia',
     description: "Bougainvillea 'Pink Purple'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5501.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '18c0a61f-a276-5860-86b9-d3999b87a147',
@@ -1338,7 +1338,7 @@ const initialState: Plant[] = [
     name: 'Green prayer plant',
     description: 'Maranta leuconeura kerchoveana',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5658.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'a98989e8-a577-5c6b-96cb-272344208f3f',
@@ -1346,7 +1346,7 @@ const initialState: Plant[] = [
     name: 'Golden Pothos',
     description: 'Epipremnum aureum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5595.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '7bba2e53-b24f-598b-9ef7-348cc2e17a82',
@@ -1354,7 +1354,7 @@ const initialState: Plant[] = [
     name: 'Tree-Cereus',
     description: 'Cereus peruvianus',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5514.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '9cfb3908-eb8b-5b25-9d00-1daf7364ff98',
@@ -1362,7 +1362,7 @@ const initialState: Plant[] = [
     name: 'Dumcane',
     description: "Dieffenbachia maculata 'Camille'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5547.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '24920077-3268-5ca9-9ca1-a96cbb50af21',
@@ -1370,7 +1370,7 @@ const initialState: Plant[] = [
     name: 'Dumcane',
     description: "Dieffenbachia 'Tropic Mary Ann'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5551.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '57cbb5b7-52a6-5558-9cf9-8717d03a68de',
@@ -1378,7 +1378,7 @@ const initialState: Plant[] = [
     name: 'Spiny licuala palm',
     description: 'Licuala spinosa',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5654.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'c47e8e53-f390-5c0b-83ee-2d99c5783764',
@@ -1386,7 +1386,7 @@ const initialState: Plant[] = [
     name: 'Croton',
     description: 'Codiaeum petra',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5531.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '13d47776-e253-50d8-bde3-60dcbef057d4',
@@ -1394,7 +1394,7 @@ const initialState: Plant[] = [
     name: 'Peace lily',
     description: "Spathiphyllum 'Domino'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5760.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '5fc3a03f-dd20-5954-a4d5-cd8c388f9843',
@@ -1402,7 +1402,7 @@ const initialState: Plant[] = [
     name: 'Guzmania',
     description: "Guzmania 'Sunnytime'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5631.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '83267f35-b5ee-58b3-866b-b9e39c1e8354',
@@ -1410,7 +1410,7 @@ const initialState: Plant[] = [
     name: 'Lacy tree-philodendron',
     description: 'Philodendron selloum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5692.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '945aa392-5bca-543f-a35e-0c9def93cb36',
@@ -1418,7 +1418,7 @@ const initialState: Plant[] = [
     name: 'Fabian Aralia',
     description: 'Polyscias scutellaria',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5715.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'b1eb97f5-3faf-5464-8890-6c621e20410b',
@@ -1426,7 +1426,7 @@ const initialState: Plant[] = [
     name: 'English ivy',
     description: 'Hedera helix',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5637.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '31336e30-0d32-54dd-8693-53e718c85fe0',
@@ -1434,7 +1434,7 @@ const initialState: Plant[] = [
     name: 'White Pothos',
     description: "Epipremnum aureum 'Marble Queen'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5596.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '8c365c23-9568-5a18-b99e-f6eba016def4',
@@ -1442,7 +1442,7 @@ const initialState: Plant[] = [
     name: 'Splitleaf Philodendron',
     description: 'Monstera deliciosa',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5661.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '057cb5a8-1403-558e-8f20-11242e0a0830',
@@ -1450,7 +1450,7 @@ const initialState: Plant[] = [
     name: 'Peace lily',
     description: "Spathiphyllum 'Starlight'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5764.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '87ba5713-8e9a-598d-9c32-5325b091e5cf',
@@ -1458,7 +1458,7 @@ const initialState: Plant[] = [
     name: 'Umbella plant',
     description: "Schefflera actinophylla 'Amate'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5738.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'bd5397c0-1214-53e5-b9a6-6560358fbc43',
@@ -1466,7 +1466,7 @@ const initialState: Plant[] = [
     name: 'Hawaiian elf',
     description: "Schefflera arboricola 'Gold Cappela'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5748.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '481d2226-2b3a-5936-aa26-e5edab001cca',
@@ -1474,7 +1474,7 @@ const initialState: Plant[] = [
     name: 'Weeping fig',
     description: "Ficus benjamina 'Midnight'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5605.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '5fb4f551-d2aa-51d1-9421-4791bfed1257',
@@ -1482,7 +1482,7 @@ const initialState: Plant[] = [
     name: 'Rubber plant',
     description: "Ficus elastica 'Burgandy'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5613.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'd77224c0-b78c-5446-a48e-e9e4862cf9ba',
@@ -1490,7 +1490,7 @@ const initialState: Plant[] = [
     name: "Rabbit's foot",
     description: 'Davallia trichomannoides',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5542.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'aada87d9-f3ab-5f20-a66f-f066aee7f862',
@@ -1498,7 +1498,7 @@ const initialState: Plant[] = [
     name: 'Croton',
     description: 'Codiaeum petra',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5533.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '05df3d1f-5005-523e-a721-f1029b32bd69',
@@ -1506,7 +1506,7 @@ const initialState: Plant[] = [
     name: 'Bella palm',
     description: 'Chamaedorea elegans',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5517.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'ddb797fe-66f1-5737-9097-a1ef55bc2509',
@@ -1514,7 +1514,7 @@ const initialState: Plant[] = [
     name: 'Rosy Maidenhair',
     description: 'Adiantum hispidulum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5436.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: 'fd6e85ca-2e7e-596d-a4b4-83f92eab592f',
@@ -1522,7 +1522,7 @@ const initialState: Plant[] = [
     name: 'Yellow Malaysian Dracaena',
     description: "Dracaena reflexa 'Song of India'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5580.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'b138684e-0084-5572-a7da-e57445316b10',
@@ -1530,7 +1530,7 @@ const initialState: Plant[] = [
     name: 'Majesty palm',
     description: 'Ravenea rivularis',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5722.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '9493dc1a-007b-5f13-8154-5b438278ac5b',
@@ -1538,7 +1538,7 @@ const initialState: Plant[] = [
     name: 'Umbella plant',
     description: "Schefflera actinophylla 'Renegade'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5740.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'b3098c25-5a42-5613-bfed-0b9995afeb86',
@@ -1546,7 +1546,7 @@ const initialState: Plant[] = [
     name: 'Lady palm',
     description: 'Rhapis excelsa',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5821.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '42c6c6ba-837f-5882-ac56-17422a2c727b',
@@ -1554,7 +1554,7 @@ const initialState: Plant[] = [
     name: 'Algerian ivy',
     description: 'Hedera canariensis',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5633.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '92b35a4c-f042-5405-86aa-9ecd5bfae2bf',
@@ -1562,7 +1562,7 @@ const initialState: Plant[] = [
     name: 'Cornstalk plant',
     description: "Dracaena fragrans 'Massangeana'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5567.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '22bc41f4-a1b2-552a-9171-416b4bfd02c7',
@@ -1570,7 +1570,7 @@ const initialState: Plant[] = [
     name: 'Weeping fig',
     description: 'Ficus benjamina Midnight',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5608.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '8555884f-66c7-56d5-b5dd-1a15c7bd95aa',
@@ -1578,7 +1578,7 @@ const initialState: Plant[] = [
     name: 'Red Philodendron',
     description: "Philodendron 'Imperial Red'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5683.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'f1562485-44fa-5395-9086-275d22649789',
@@ -1586,7 +1586,7 @@ const initialState: Plant[] = [
     name: 'Snake plant',
     description: 'Sansevieria trifasciata Laurentii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5734.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'd0477da8-2634-5769-9da4-479044c0a836',
@@ -1594,7 +1594,7 @@ const initialState: Plant[] = [
     name: 'Hawaiian elf',
     description: 'Schefflera arboricola',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5746.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'd15e1d86-548c-5f15-b82d-881914875bd8',
@@ -1602,7 +1602,7 @@ const initialState: Plant[] = [
     name: 'Bougainvillia',
     description: 'Bougainvillea',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5503.jpg',
-    price: '$13',
+    price: 13,
   },
   {
     id: 'a25a9896-8cfa-59b9-baaf-eba6134dbf4a',
@@ -1610,7 +1610,7 @@ const initialState: Plant[] = [
     name: 'Spineless yucca',
     description: 'Yucca elephantipes',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5786.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'b9f60a97-c1ad-5db3-9875-1756a1d3f487',
@@ -1618,7 +1618,7 @@ const initialState: Plant[] = [
     name: 'Phrynium',
     description: 'Ctenanthe lubbersiana',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5539.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '3242eb7d-005e-5754-9d06-989a36dd3f23',
@@ -1626,7 +1626,7 @@ const initialState: Plant[] = [
     name: 'Dumcane',
     description: 'Dieffenbachia amoena Tropic Snow',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5545.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'a4e8fe1a-9abe-5ead-accf-b7b49de4422b',
@@ -1634,7 +1634,7 @@ const initialState: Plant[] = [
     name: 'Ming Aralia',
     description: 'Polyscias fruticosa',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5703.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'bcd987f3-5163-572d-96cb-3d8acd99842b',
@@ -1642,7 +1642,7 @@ const initialState: Plant[] = [
     name: 'Parlor ivy',
     description: 'Philodendron scandens oxycardium',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5689.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'a8ab0243-b075-52cb-afc0-77b919067116',
@@ -1650,7 +1650,7 @@ const initialState: Plant[] = [
     name: 'Peace lily',
     description: "Spathiphyllum 'Emerald Swirl'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5761.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'aa1b51d7-c08f-59c3-b91c-349f2debc132',
@@ -1658,7 +1658,7 @@ const initialState: Plant[] = [
     name: 'Spider plant',
     description: 'Chlorophytum comosum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5527.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '5a7491b6-6383-59b6-b9f1-3214d2da0192',
@@ -1666,7 +1666,7 @@ const initialState: Plant[] = [
     name: 'Lime philodendron',
     description: "Philodendron 'Moonlight'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5685.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '8c35fceb-b007-565d-8d85-221763f3f21a',
@@ -1674,7 +1674,7 @@ const initialState: Plant[] = [
     name: 'Peace lily',
     description: "Spathiphyllum 'Lynise'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5762.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '461f12bd-1edf-5665-91d5-192e8f46140b',
@@ -1682,7 +1682,7 @@ const initialState: Plant[] = [
     name: 'Snake plant',
     description: 'Sansevieria trifasciata Laurentii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5732.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '1481585b-fba8-5243-858b-7c39588333ec',
@@ -1690,7 +1690,7 @@ const initialState: Plant[] = [
     name: 'Monster cactus',
     description: 'Cereus peruvianus Monstrosus',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5516.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '81916cbf-60fa-5d18-b114-78a5514785d6',
@@ -1698,7 +1698,7 @@ const initialState: Plant[] = [
     name: 'Peace lily',
     description: "Spathiphyllum 'Domino'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5759.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '06e6bb19-cc6f-5170-bea3-52e71d3348ca',
@@ -1706,7 +1706,7 @@ const initialState: Plant[] = [
     name: 'Burro-tail',
     description: 'Sedum morganianum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5755.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'b6baf3cd-9267-558b-ad81-55b996a8a903',
@@ -1714,7 +1714,7 @@ const initialState: Plant[] = [
     name: 'Rubber plant',
     description: "Ficus elastica 'Robusta'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5619.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '0693eb8e-da75-531a-96cb-0fe6123fa924',
@@ -1722,7 +1722,7 @@ const initialState: Plant[] = [
     name: 'Coral berry',
     description: 'Aechmea ramosa',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5439.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: 'b0774ff0-f439-59d3-a437-3525ea73fee8',
@@ -1730,7 +1730,7 @@ const initialState: Plant[] = [
     name: 'Hawaiian elf',
     description: 'Schefflera arboricola',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5743.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '4a77118d-09fc-522a-b08e-702c08bc8495',
@@ -1738,7 +1738,7 @@ const initialState: Plant[] = [
     name: 'Silver vase',
     description: "Aechmea X Hyb. 'Star Bright'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5440.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: '04fb0fa3-08b4-5d02-a792-331a9bec82a8',
@@ -1746,7 +1746,7 @@ const initialState: Plant[] = [
     name: 'China doll',
     description: 'Radermachera sinica',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5721.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'cf599224-d0ba-5c18-bab0-74ad42cc8a0a',
@@ -1754,7 +1754,7 @@ const initialState: Plant[] = [
     name: 'Fidleleaf fig',
     description: 'Ficus lyrata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5621.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '22db379c-16b1-596d-8d37-0b7a916e5eea',
@@ -1762,7 +1762,7 @@ const initialState: Plant[] = [
     name: 'Grass tree',
     description: 'Xanthorrhoea arborea',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5784.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '9adcbfb5-ffc8-5520-a6bd-a24c47baae09',
@@ -1770,7 +1770,7 @@ const initialState: Plant[] = [
     name: 'White Pothos',
     description: "Epipremnum aureum 'Marble Queen'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5597.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '4e920b7e-3ee5-5279-8b74-db99716e61d7',
@@ -1778,7 +1778,7 @@ const initialState: Plant[] = [
     name: 'Areca palm',
     description: 'Dypsis lutescens',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5588.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '8298aed6-7c9a-5760-b8f6-c83b4b2762a8',
@@ -1786,7 +1786,7 @@ const initialState: Plant[] = [
     name: 'Bird nest Anthurium',
     description: 'Anthurium schlechtendalii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5494.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '3664a0b7-5c43-5019-b75a-43ec744f1227',
@@ -1794,7 +1794,7 @@ const initialState: Plant[] = [
     name: 'Golden Pothos',
     description: 'Epipremnum aureum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5594.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '290f43b2-1261-5865-9a00-878870ebf885',
@@ -1802,7 +1802,7 @@ const initialState: Plant[] = [
     name: 'Miniature treefern',
     description: 'Blechnum gibbum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5500.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '298cb8b0-859b-53a6-9b79-145b7f5b346f',
@@ -1810,7 +1810,7 @@ const initialState: Plant[] = [
     name: 'Yellow Hawaiian elf',
     description: "Schefflera arboricola 'Trinette'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5751.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '07c04bcc-8ad3-52b9-8561-dd8c0eb6a2f3',
@@ -1818,7 +1818,7 @@ const initialState: Plant[] = [
     name: 'Areca palm',
     description: 'Dypsis lutescens',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5589.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '51342f58-7ed4-543c-ad74-fcbb3b593e6d',
@@ -1826,7 +1826,7 @@ const initialState: Plant[] = [
     name: 'Tree Maindenhair fern',
     description: 'Didymochlaena truncatula',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5543.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '0d2ccba1-f96a-59ed-9823-f2117c2142f6',
@@ -1834,7 +1834,7 @@ const initialState: Plant[] = [
     name: 'Umbella plant',
     description: "Schefflera actinophylla 'Amate'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5739.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '5c8b51ec-75ab-57cf-a6e8-a3ab79ae7d24',
@@ -1842,7 +1842,7 @@ const initialState: Plant[] = [
     name: 'English ivy',
     description: 'Hedera helix',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5636.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '3ee62702-a648-5fce-8d16-a399635442b4',
@@ -1850,7 +1850,7 @@ const initialState: Plant[] = [
     name: 'English ivy',
     description: 'Hedera helix',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5635.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '52316e9a-8c07-5f4a-9e95-ac9b33bcdb6b',
@@ -1858,7 +1858,7 @@ const initialState: Plant[] = [
     name: 'Buttrefly Ginger',
     description: 'Hedychium coronarium',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5642.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'f38e2879-2c97-5662-b6e2-0278db76adf5',
@@ -1866,7 +1866,7 @@ const initialState: Plant[] = [
     name: 'Paper Flower',
     description: 'Bougainvillea',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5502.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: 'fe7fd0b2-2842-5ff5-8ffa-c7bc8fe1d6bf',
@@ -1874,7 +1874,7 @@ const initialState: Plant[] = [
     name: 'Golden Trumpet',
     description: 'Allamanda nerifolia',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5484.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '5d34239e-5668-5d1a-b70d-ef2eb513ee6c',
@@ -1882,7 +1882,7 @@ const initialState: Plant[] = [
     name: 'Birdnest fern',
     description: 'Asplenium nidus',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5499.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '0ac176a3-125b-5b68-864b-16c135e1ef09',
@@ -1890,7 +1890,7 @@ const initialState: Plant[] = [
     name: 'Tricolor Peperomia',
     description: "Peperomia clusiifolia 'Tricolor'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5678.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '6501c493-5250-5c6e-a8f9-a98966d0497b',
@@ -1898,7 +1898,7 @@ const initialState: Plant[] = [
     name: 'Snake plant',
     description: 'Sansevieria trifasciata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5730.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '11bb23db-7909-54ad-94d6-783def6eab3e',
@@ -1906,7 +1906,7 @@ const initialState: Plant[] = [
     name: 'Balfour aralia',
     description: "Polyscias pinnata 'Lemon Lime'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5707.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '97b9ea2f-1364-5451-8be9-73c6687ef4a1',
@@ -1914,7 +1914,7 @@ const initialState: Plant[] = [
     name: 'Velvet Calathea',
     description: 'Calathea rufibarba',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5507.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '933fce98-a552-56cf-a37d-26751f0141bd',
@@ -1922,7 +1922,7 @@ const initialState: Plant[] = [
     name: 'Tree-Cereus',
     description: 'Cereus peruvianus',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5515.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '89e2122c-91a3-5058-9f24-f9911f6e1c67',
@@ -1930,7 +1930,7 @@ const initialState: Plant[] = [
     name: 'Elephant foot',
     description: 'Nolina recurvata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5671.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '615e49b3-e92e-50a9-942a-5f84001cd9c8',
@@ -1938,7 +1938,7 @@ const initialState: Plant[] = [
     name: 'Hawaiian elf',
     description: 'Schefflera arboricola',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5745.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'b473786b-dfc9-5c87-9da9-9a1156baca99',
@@ -1946,7 +1946,7 @@ const initialState: Plant[] = [
     name: 'Dumcane',
     description: "Dieffenbachia maculata 'Carina'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5548.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'e546685c-a4d6-50e2-9943-d51b48ea7664',
@@ -1954,7 +1954,7 @@ const initialState: Plant[] = [
     name: 'Variegated Euphorbia',
     description: 'Euphorbia ammack',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5598.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '2c638147-8b1e-5aa8-86d8-73586be56622',
@@ -1962,7 +1962,7 @@ const initialState: Plant[] = [
     name: 'Chinese hibiscus',
     description: 'Hibiscus rosa-sinensis',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5644.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'dd45a1fb-9a22-5fd7-94b4-7430830dd2f2',
@@ -1970,7 +1970,7 @@ const initialState: Plant[] = [
     name: 'Boston fern',
     description: 'Nephrolepis exaltata var.',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5667.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '606a5619-5cdb-5ca3-9397-9175c4e350ba',
@@ -1978,7 +1978,7 @@ const initialState: Plant[] = [
     name: 'Silver Ribbon Fern',
     description: "Pteris cretica 'Albo-lineata'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5718.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: '53f4f8f3-a867-5e7f-a451-4bc51b50e5b1',
@@ -1986,7 +1986,7 @@ const initialState: Plant[] = [
     name: 'White bird of paradise',
     description: 'Strelitzia nicolai',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5767.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '83d6c3be-2c2a-5b31-affe-9cfb0fdeae65',
@@ -1994,7 +1994,7 @@ const initialState: Plant[] = [
     name: 'Hawaiian elf',
     description: "Schefflera arboricola 'Gold Cappela'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5750.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'd989c197-d802-5601-b0c5-d6394bfa5237',
@@ -2002,7 +2002,7 @@ const initialState: Plant[] = [
     name: 'Croton',
     description: 'Codiaeum petra',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5534.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '3d45ddf6-98eb-5d0b-bb72-615f94ad2eef',
@@ -2010,7 +2010,7 @@ const initialState: Plant[] = [
     name: 'Sago palm',
     description: 'Cycas revoluta',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5540.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '85a14c3d-2dac-54c1-9208-18f30e6610d6',
@@ -2018,7 +2018,7 @@ const initialState: Plant[] = [
     name: 'Snake plant',
     description: 'Sansevieria trifasciata Laurentii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5733.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '5712f2c9-6771-5fb8-81e1-47b162a4fb46',
@@ -2026,7 +2026,7 @@ const initialState: Plant[] = [
     name: 'Jade Plant',
     description: 'Crassula argentea',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5535.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'b60dabc0-cfe9-52fb-951c-8999ea3d8a69',
@@ -2034,7 +2034,7 @@ const initialState: Plant[] = [
     name: 'Pignee Date palm',
     description: 'Phoenix roebellinii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5697.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'cca1dca0-329b-5780-89a5-e85750053c38',
@@ -2042,7 +2042,7 @@ const initialState: Plant[] = [
     name: 'Lilliput Agave',
     description: "Agave striata 'Nana'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5445.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: '54ebd2e7-268f-59c2-a1a2-c03398246979',
@@ -2050,7 +2050,7 @@ const initialState: Plant[] = [
     name: 'Snake plant',
     description: 'Sansevieria trifasciata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5727.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '70e46cca-d8d6-54f4-a6eb-4e80e7002438',
@@ -2058,7 +2058,7 @@ const initialState: Plant[] = [
     name: 'Bella palm',
     description: 'Chamaedorea elegans',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5520.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'ade6fd8c-3d0c-51f9-9b19-ea1ab4d78cdb',
@@ -2066,7 +2066,7 @@ const initialState: Plant[] = [
     name: 'Snake plant',
     description: 'Sansevieria trifasciata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5728.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '5db109d6-24c6-54b9-9502-cf0da9c96c99',
@@ -2074,7 +2074,7 @@ const initialState: Plant[] = [
     name: 'Dumcane',
     description: "Dieffenbachia 'Tropic Mary Ann'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5552.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'b07edb14-edd6-58d5-a38c-e0cad73c7176',
@@ -2082,7 +2082,7 @@ const initialState: Plant[] = [
     name: 'Medallion Calathea',
     description: "Calathea veitchiana 'Medallion'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5509.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'cac107d7-fe75-52cb-a7a0-23efc6fca516',
@@ -2090,7 +2090,7 @@ const initialState: Plant[] = [
     name: 'Japanese tassel fern',
     description: 'Polystichum polyblepharum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5716.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: 'c0a2ddae-4537-5b79-976c-53d5761428b3',
@@ -2098,7 +2098,7 @@ const initialState: Plant[] = [
     name: 'Willow fig tree',
     description: "Ficus maclellandii 'Amstel King'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5625.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'bb032478-753b-58fc-8cf8-734d0912e4bf',
@@ -2106,7 +2106,7 @@ const initialState: Plant[] = [
     name: 'Ming Aralia',
     description: 'Polyscias fruticosa',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5704.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '4c1905e7-7bdf-5a97-a00e-29e9be15094b',
@@ -2114,7 +2114,7 @@ const initialState: Plant[] = [
     name: 'Golden Pothos',
     description: 'Epipremnum aureum',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5593.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: 'bdae5be3-3713-51e4-8ca6-13cfb8860cf5',
@@ -2122,7 +2122,7 @@ const initialState: Plant[] = [
     name: 'Thread Agave',
     description: 'Agave filifera',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5444.jpg',
-    price: '$10',
+    price: 10,
   },
   {
     id: '3e03b55a-359e-53d5-b94b-eab87651bb4b',
@@ -2130,7 +2130,7 @@ const initialState: Plant[] = [
     name: 'Chicken gizard aralia',
     description: 'Polyscias crispata',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5702.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '8db3d134-7bfb-52f8-affd-c759c739c8e5',
@@ -2138,7 +2138,7 @@ const initialState: Plant[] = [
     name: 'Silver Calathea',
     description: "Calathea pictura 'Argentea'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5506.jpg',
-    price: '$12',
+    price: 12,
   },
   {
     id: '6edd069d-6a56-5c02-86bb-a190a515be63',
@@ -2146,7 +2146,7 @@ const initialState: Plant[] = [
     name: 'Rubber plant',
     description: "Ficus elastica 'Robusta'",
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5617.jpg',
-    price: '$11',
+    price: 11,
   },
   {
     id: '52924272-8ba8-5e47-a2df-0c68da75f2c1',
@@ -2154,7 +2154,7 @@ const initialState: Plant[] = [
     name: 'Blue Agave',
     description: 'Agave verschaffeltii',
     image: 'http://www.tropicopia.com/house-plant/thumbnails/5446.jpg',
-    price: '$10',
+    price: 10,
   },
 ]
 
@@ -2178,7 +2178,7 @@ const plantSlice = createSlice({
             name: plant['Common name']?.[0] ?? plant['Latin name'],
             description: plant.Description ?? plant['Latin name'],
             image: plant.Img,
-            price: `$${plant.Zone?.[0]?.split('-')?.[0]}`, // fake price
+            price: Number(plant.Zone?.[0]?.split('-')?.[0]), // fake price
           }))
         }
         return initialState
