@@ -1,17 +1,19 @@
 import { Controller, Get, Post } from '@nestjs/common';
 import { BookService } from './book.service';
+import { Book } from './book.entity';
 
 @Controller()
 export class BookController {
   constructor(private readonly bookService: BookService) {}
+
+  @Get('/')
+  async listBooks(): Promise<Book[]> {
+    return await this.bookService.listBooks();
+  }
+
   @Post('register')
   register() {
     // Register user
-  }
-
-  @Get('')
-  listBooks() {
-    // Get the book list available in the shop
   }
 
   @Get('isbn/:isbn')

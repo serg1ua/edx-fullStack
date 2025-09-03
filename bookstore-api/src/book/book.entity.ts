@@ -4,7 +4,7 @@ import { Review } from './review.entity';
 @Entity('book')
 export class Book {
   @PrimaryColumn({ type: 'uuid', unique: true })
-  id: number;
+  id: string;
 
   @Column({ nullable: false })
   author: string;
@@ -16,5 +16,5 @@ export class Book {
     onDelete: 'CASCADE',
     eager: true,
   })
-  reviews: Review[];
+  reviews?: Review[];
 }

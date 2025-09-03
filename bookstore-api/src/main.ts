@@ -12,7 +12,7 @@ async function bootstrap() {
   const server = await NestFactory.create(AppModule, new ExpressAdapter(app));
 
   const config = server.get(ConfigService);
-  const PORT = config.get('PORT') as number;
+  const PORT = config.get<number>('PORT') as number;
 
   await server.listen(PORT, () =>
     console.log(`Server is listening on http://localhost:${PORT}`),
