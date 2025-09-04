@@ -5,20 +5,14 @@ import { Book } from './book.entity';
 @Entity('review')
 export class Review {
   @PrimaryColumn({ type: 'uuid', unique: true })
-  id: number;
+  id: string;
 
   @Column({ nullable: false })
   review: string;
 
-  @ManyToOne(() => Customer, (customer: Customer) => customer.reviews, {
-    onDelete: 'CASCADE',
-    eager: true,
-  })
+  @ManyToOne(() => Customer, (customer: Customer) => customer.reviews)
   customer: Customer;
 
-  @ManyToOne(() => Book, (book: Book) => book.reviews, {
-    onDelete: 'CASCADE',
-    eager: true,
-  })
+  @ManyToOne(() => Book, (book: Book) => book.reviews)
   book: Book;
 }

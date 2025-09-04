@@ -1,6 +1,8 @@
-import { Controller, Get, Post } from '@nestjs/common';
+import { Controller, Get, Param, Post } from '@nestjs/common';
 import { BookService } from './book.service';
 import { Book } from './book.entity';
+import { Review } from './review.entity';
+import { Nullable } from '../types';
 
 @Controller()
 export class BookController {
@@ -17,22 +19,26 @@ export class BookController {
   }
 
   @Get('isbn/:isbn')
-  getBookByISBN() {
-    // Get book details based on ISBN
+  async getBookByISBN(@Param('isbn') isbn: string): Promise<Nullable<Book>> {
+    return await this.bookService.getBookByParam('isbn', isbn);
   }
 
   @Get('author/:author')
-  getBooksByAuthor() {
-    // Get book details based on author
+  async getBooksByAuthor(
+    @Param('author') author: string,
+  ): Promise<Nullable<Book>> {
+    return await this.bookService.getBookByParam('author', author);
   }
 
   @Get('title/:title')
-  getBooksByTitle() {
-    // Get book details based on author
+  async getBooksByTitle(
+    @Param('title') title: string,
+  ): Promise<Nullable<Book>> {
+    return await this.bookService.getBookByParam('title', title);
   }
 
   @Get('review/:isbn')
-  getBookReviews() {
-    // Get book details based on author
+  async getBookReviews(@Param('isbn') isbn: string): Promise<Review[]> {
+    return await this.bookService.getBookReviews({ isbn });
   }
 }

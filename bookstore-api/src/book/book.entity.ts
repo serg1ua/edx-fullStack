@@ -6,6 +6,9 @@ export class Book {
   @PrimaryColumn({ type: 'uuid', unique: true })
   id: string;
 
+  @Column({ nullable: false, unique: true })
+  isbn: string;
+
   @Column({ nullable: false })
   author: string;
 
