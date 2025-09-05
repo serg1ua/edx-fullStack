@@ -7,7 +7,15 @@ import helmet from 'helmet';
 import { AppModule } from './app.module';
 
 const app = express();
+
 app.use(helmet());
+app.use(
+  (req: express.Request, res: express.Response, next: express.NextFunction) => {
+    res.setHeader('Access-Control-Allow-Credentials', 'true');
+    res.setHeader('Cache-Control', 'no-store');
+    next();
+  },
+);
 
 async function bootstrap() {
   const server = await NestFactory.create(AppModule, new ExpressAdapter(app));

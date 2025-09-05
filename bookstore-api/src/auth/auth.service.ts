@@ -1,6 +1,6 @@
 import * as bcrypt from 'bcrypt';
 import type { Response } from 'express';
-import { Injectable } from '@nestjs/common';
+import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import { SALT_ROUNDS } from '../config';
 
@@ -16,6 +16,14 @@ export class AuthService {
   async signAuthToken(data: Record<string, string>): Promise<string> {
     const authToken = await this.jwtService.signAsync(data);
     return authToken;
+  }
+
+  async verifyPassword(password: string, hash: string): Promise<void> {
+    const isMatch = await bcrypt.compare(password, hash);
+
+    if (!isMatch) {
+      throw new UnauthorizedException('Invalid userName or/and password');
+    }
   }
 
   setCookie(authToken: string, res: Response): void {
