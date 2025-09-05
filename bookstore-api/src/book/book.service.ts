@@ -1,30 +1,34 @@
-import * as bcrypt from 'bcrypt';
 import { v4 as uuid } from 'uuid';
 import { Repository } from 'typeorm';
-import { JwtService } from '@nestjs/jwt';
 import { Injectable, InternalServerErrorException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { AuthService } from '../auth/auth.service';
 import { Customer } from '../customer/customer.entity';
 import { Book } from './book.entity';
 import { Review } from './review.entity';
-import { SALT_ROUNDS } from '../config';
-import { AuthCustomerResponse } from '../customer/customer.dto';
+import {
+  AuthCustomerResponse,
+  LoginCustomerDto,
+} from '../customer/customer.dto';
 import { Nullable } from '../types';
 
 @Injectable()
 export class BookService {
   constructor(
+    private readonly authService: AuthService,
     @InjectRepository(Book) private readonly bookRepository: Repository<Book>,
     @InjectRepository(Customer)
     private readonly customerRepository: Repository<Customer>,
     @InjectRepository(Review)
     private readonly reviewRepository: Repository<Review>,
-    private jwtService: JwtService,
   ) {}
 
-  async register({ userName, password }): Promise<AuthCustomerResponse> {
+  async register({
+    userName,
+    password,
+  }: LoginCustomerDto): Promise<AuthCustomerResponse> {
     try {
-      const hashedPassword = await bcrypt.hash(password, SALT_ROUNDS);
+      const hashedPassword = await this.authService.hashPassword(password);
 
       const id = uuid();
       await this.customerRepository.insert({
@@ -33,7 +37,7 @@ export class BookService {
         password: hashedPassword,
       });
 
-      const authToken = await this.jwtService.signAsync({ id, userName });
+      const authToken = await this.authService.signAuthToken({ id, userName });
 
       return { id, userName, authToken };
     } catch (error) {

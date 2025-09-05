@@ -1,6 +1,6 @@
 import type { Response } from 'express';
 import { Body, Controller, Get, Param, Post, Res } from '@nestjs/common';
-import { ACCESS_TOKEN_EXPIRATION_TIME } from '../config';
+import { AuthService } from '../auth/auth.service';
 import { LoginCustomerDto } from '../customer/customer.dto';
 import { Customer } from '../customer/customer.entity';
 import { BookService } from './book.service';
@@ -10,7 +10,10 @@ import { Nullable } from '../types';
 
 @Controller()
 export class BookController {
-  constructor(private readonly bookService: BookService) {}
+  constructor(
+    private readonly authService: AuthService,
+    private readonly bookService: BookService,
+  ) {}
 
   @Get('/')
   async listBooks(): Promise<Book[]> {
@@ -24,13 +27,7 @@ export class BookController {
   ): Promise<Response<Pick<Customer, 'id' | 'userName'>>> {
     const { id, userName, authToken } = await this.bookService.register(dto);
 
-    res.cookie('authToken', authToken, {
-      httpOnly: true,
-      sameSite: 'none',
-      secure: true,
-      expires: new Date(Date.now() + ACCESS_TOKEN_EXPIRATION_TIME * 6000),
-    });
-
+    this.authService.setCookie(authToken, res);
     return res.send({ id, userName });
   }
 
