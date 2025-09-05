@@ -37,7 +37,7 @@ export class BookService {
         password: hashedPassword,
       });
 
-      const authToken = await this.authService.signAuthToken({ id, userName });
+      const authToken = this.authService.signAuthToken({ id, userName });
 
       return { id, userName, authToken };
     } catch (error) {

@@ -16,7 +16,7 @@ export type Configuration = {
 };
 
 export const SALT_ROUNDS = 10;
-export const ACCESS_TOKEN_EXPIRATION_TIME = 10; // 10 minutes
+export const ACCESS_TOKEN_EXPIRATION_TIME = 10;
 
 export default (): Configuration => ({
   NODE_ENV: process.env.NODE_ENV || CarApiEnvironment.DEV,

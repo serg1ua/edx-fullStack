@@ -1,5 +1,14 @@
-import type { Response } from 'express';
-import { Body, Controller, Post, Res } from '@nestjs/common';
+import type { Response, Request } from 'express';
+import {
+  Body,
+  Controller,
+  Param,
+  Post,
+  Req,
+  Res,
+  UseGuards,
+} from '@nestjs/common';
+import { AuthGuard } from '../auth/auth.guard';
 import { AuthService } from '../auth/auth.service';
 import { CustomerService } from './customer.service';
 import { LoginCustomerDto } from './customer.dto';
@@ -23,8 +32,13 @@ export class CustomerController {
     return res.send({ id, userName });
   }
 
+  @UseGuards(AuthGuard)
   @Post('auth/review/:isbn')
-  addReview() {
-    return this.customerService.addReview();
+  addReview(
+    @Req() req: Request & { user: Customer },
+    @Param('isbn') isbn: string,
+    @Body() body: Record<'review', string>,
+  ) {
+    return this.customerService.addReview(req.user, isbn, body.review);
   }
 }

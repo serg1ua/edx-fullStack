@@ -1,14 +1,16 @@
 import express from 'express';
+import helmet from 'helmet';
+import cookieParser from 'cookie-parser';
 import { NestFactory } from '@nestjs/core';
 import { ConfigService } from '@nestjs/config';
 import { ValidationPipe } from '@nestjs/common';
 import { ExpressAdapter } from '@nestjs/platform-express';
-import helmet from 'helmet';
 import { AppModule } from './app.module';
 
 const app = express();
 
 app.use(helmet());
+app.use(cookieParser());
 app.use(
   (req: express.Request, res: express.Response, next: express.NextFunction) => {
     res.setHeader('Access-Control-Allow-Credentials', 'true');

@@ -5,8 +5,8 @@ import { BookModule } from './book/book.module';
 import { CustomerModule } from './customer/customer.module';
 import { Customer } from './customer/customer.entity';
 import { Book } from './book/book.entity';
-import config from './config';
 import { Review } from './book/review.entity';
+import config from './config';
 
 @Module({
   imports: [
