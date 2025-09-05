@@ -1,4 +1,8 @@
-import { Controller, Get, Param, Post } from '@nestjs/common';
+import type { Response } from 'express';
+import { Body, Controller, Get, Param, Post, Res } from '@nestjs/common';
+import { ACCESS_TOKEN_EXPIRATION_TIME } from '../config';
+import { LoginCustomerDto } from '../customer/customer.dto';
+import { Customer } from '../customer/customer.entity';
 import { BookService } from './book.service';
 import { Book } from './book.entity';
 import { Review } from './review.entity';
@@ -14,8 +18,20 @@ export class BookController {
   }
 
   @Post('register')
-  register() {
-    // Register user
+  async register(
+    @Body() dto: LoginCustomerDto,
+    @Res() res: Response,
+  ): Promise<Response<Pick<Customer, 'id' | 'userName'>>> {
+    const { id, userName, authToken } = await this.bookService.register(dto);
+
+    res.cookie('authToken', authToken, {
+      httpOnly: true,
+      sameSite: 'none',
+      secure: true,
+      expires: new Date(Date.now() + ACCESS_TOKEN_EXPIRATION_TIME * 6000),
+    });
+
+    return res.send({ id, userName });
   }
 
   @Get('isbn/:isbn')

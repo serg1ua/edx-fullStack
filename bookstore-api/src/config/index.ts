@@ -2,11 +2,10 @@ import 'dotenv/config';
 
 export enum CarApiEnvironment {
   DEV = 'dev',
-  TEST = 'test',
   PROD = 'production',
 }
 
-type Configuration = {
+export type Configuration = {
   NODE_ENV: string;
   PORT: number;
   POSTGRES_HOST: string;
@@ -15,6 +14,9 @@ type Configuration = {
   POSTGRES_PASSWORD: string;
   POSTGRES_DB: string;
 };
+
+export const SALT_ROUNDS = 10;
+export const ACCESS_TOKEN_EXPIRATION_TIME = 10; // 10 minutes
 
 export default (): Configuration => ({
   NODE_ENV: process.env.NODE_ENV || CarApiEnvironment.DEV,

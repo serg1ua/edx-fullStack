@@ -9,3 +9,9 @@ export class LoginCustomerDto {
   @IsString()
   password: string;
 }
+
+export type AuthCustomerResponse = {
+  id: string;
+  userName: string;
+  authToken: string;
+};
