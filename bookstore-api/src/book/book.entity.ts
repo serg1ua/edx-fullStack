@@ -21,3 +21,17 @@ export class Book {
   })
   reviews?: Review[];
 }
+
+export type BookResponse = {
+  books: {
+    [key: string]: Book;
+  };
+};
+
+export type BooksByAuthorResponse = {
+  booksByAuthor: Book[];
+};
+
+export type BooksByTitleResponse = {
+  booksByTitle: Book[];
+};

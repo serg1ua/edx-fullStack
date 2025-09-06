@@ -9,7 +9,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { AuthService } from '../auth/auth.service';
 import { Customer } from './customer.entity';
 import { Review } from '../book/review.entity';
-import { LoginCustomerDto } from './customer.dto';
+import { LoginCustomerDto } from './dto/customer.dto';
 import { BookService } from '../book/book.service';
 
 @Injectable()
@@ -41,7 +41,7 @@ export class CustomerService {
 
   async addReview(customer: Customer, isbn: string, review: string) {
     try {
-      const book = await this.bookService.getBookByParam('isbn', isbn);
+      const [book] = await this.bookService.getBookByParam('isbn', isbn);
       if (!book) {
         throw new BadRequestException('Book not found');
       }
@@ -56,5 +56,51 @@ export class CustomerService {
     } catch (error) {
       throw new InternalServerErrorException(error);
     }
+  }
+
+  async updateReview(
+    customer: Customer,
+    id: string,
+    review: string,
+  ): Promise<void> {
+    try {
+      await this.findReviewByIdAndCustomer(customer, id);
+      await this.reviewRepository.update({ id }, { review });
+    } catch (error) {
+      throw new InternalServerErrorException(error);
+    }
+  }
+
+  async deleteReview(customer: Customer, id: string): Promise<void> {
+    try {
+      const review = await this.findReviewByIdAndCustomer(customer, id);
+      await this.reviewRepository.delete(review.id);
+    } catch (error) {
+      throw new InternalServerErrorException(error);
+    }
+  }
+
+  private async findReviewByIdAndCustomer(
+    customer: Customer,
+    id: string,
+  ): Promise<Review> {
+    const reviewByIdAndCustomer = await this.reviewRepository.findOne({
+      relations: {
+        customer: true,
+      },
+      where: {
+        id,
+        customer: {
+          id: customer.id,
+        },
+      },
+    });
+
+    if (!reviewByIdAndCustomer) {
+      throw new BadRequestException(
+        `The review with given id: ${id} is not found or it does not belong to customer: ${customer.userName}`,
+      );
+    }
+    return reviewByIdAndCustomer;
   }
 }

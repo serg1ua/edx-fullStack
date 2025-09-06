@@ -9,7 +9,7 @@ import { Review } from './review.entity';
 import {
   AuthCustomerResponse,
   LoginCustomerDto,
-} from '../customer/customer.dto';
+} from '../customer/dto/customer.dto';
 import { Nullable } from '../types';
 
 @Injectable()
@@ -54,10 +54,20 @@ export class BookService {
     }
   }
 
-  async getBookByParam(param: string, value: string): Promise<Nullable<Book>> {
+  async getBookByParam(param: string, value: string): Promise<Book[]> {
     try {
-      const book = await this.bookRepository.findOneBy({ [param]: value });
-      return book;
+      const books = await this.bookRepository.find({
+        where: { [param]: value },
+      });
+      return books;
+    } catch (error) {
+      throw new InternalServerErrorException(error);
+    }
+  }
+
+  async getBookReviewById(id: string): Promise<Nullable<Review>> {
+    try {
+      return await this.reviewRepository.findOneBy({ id });
     } catch (error) {
       throw new InternalServerErrorException(error);
     }

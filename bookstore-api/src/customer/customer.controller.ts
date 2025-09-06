@@ -2,7 +2,9 @@ import type { Response, Request } from 'express';
 import {
   Body,
   Controller,
+  Delete,
   Param,
+  Patch,
   Post,
   Req,
   Res,
@@ -11,8 +13,9 @@ import {
 import { AuthGuard } from '../auth/auth.guard';
 import { AuthService } from '../auth/auth.service';
 import { CustomerService } from './customer.service';
-import { LoginCustomerDto } from './customer.dto';
+import { LoginCustomerDto } from './dto/customer.dto';
 import { Customer } from './customer.entity';
+import { ReviewDto } from './dto/review.dto';
 
 @Controller('customer')
 export class CustomerController {
@@ -34,11 +37,33 @@ export class CustomerController {
 
   @UseGuards(AuthGuard)
   @Post('auth/review/:isbn')
-  addReview(
+  async addReview(
     @Req() req: Request & { user: Customer },
     @Param('isbn') isbn: string,
-    @Body() body: Record<'review', string>,
-  ) {
-    return this.customerService.addReview(req.user, isbn, body.review);
+    @Body() body: ReviewDto,
+  ): Promise<string> {
+    await this.customerService.addReview(req.user, isbn, body.review);
+    return `The review for the book with ISBN ${isbn} has been added`;
+  }
+
+  @UseGuards(AuthGuard)
+  @Patch('auth/review/:id')
+  async updateReview(
+    @Req() req: Request & { user: Customer },
+    @Param('id') id: string,
+    @Body() body: ReviewDto,
+  ): Promise<string> {
+    await this.customerService.updateReview(req.user, id, body.review);
+    return `The review with ${id} has been updated`;
+  }
+
+  @UseGuards(AuthGuard)
+  @Delete('auth/review/:id')
+  async deleteReview(
+    @Req() req: Request & { user: Customer },
+    @Param('id') id: string,
+  ): Promise<string> {
+    await this.customerService.deleteReview(req.user, id);
+    return `The review with ${id} has been deleted`;
   }
 }
