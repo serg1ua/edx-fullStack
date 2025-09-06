@@ -57,7 +57,7 @@ export class BookService {
   async getBookByParam(param: string, value: string): Promise<Book[]> {
     try {
       const books = await this.bookRepository.find({
-        where: { [param]: value },
+        where: [{ [param]: value }, { [param]: value.toLowerCase() }],
       });
       return books;
     } catch (error) {

@@ -2,7 +2,6 @@ import type { Response } from 'express';
 import { Body, Controller, Get, Param, Post, Res } from '@nestjs/common';
 import { AuthService } from '../auth/auth.service';
 import { LoginCustomerDto } from '../customer/dto/customer.dto';
-import { Customer } from '../customer/customer.entity';
 import { BookService } from './book.service';
 import {
   Book,
@@ -35,11 +34,13 @@ export class BookController {
   async register(
     @Body() dto: LoginCustomerDto,
     @Res() res: Response,
-  ): Promise<Response<Pick<Customer, 'id' | 'userName'>>> {
-    const { id, userName, authToken } = await this.bookService.register(dto);
+  ): Promise<Response<{ message: string }>> {
+    const { authToken } = await this.bookService.register(dto);
 
     this.authService.setCookie(authToken, res);
-    return res.send({ id, userName });
+    return res.send({
+      message: 'Customer successfully registered. Now you can login',
+    });
   }
 
   @Get('isbn/:isbn')
