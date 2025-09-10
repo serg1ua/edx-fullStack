@@ -1,12 +1,50 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
+    {% load static %}
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Online course app</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'online_course/styles/bootstrap/css/bootstrap.css' %}"
+    />
+    <title>Online course app: {% block title %}{{ title }}{% endblock %}</title>
   </head>
+
   <body>
-    <h1>Welcome!</h1>
-    <p>Welcome to online course app!</p>
+    <header>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Home</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            {% comment %} {% if True %} {% endcomment %}
+            <li>
+              {% comment %}
+              <a class="btn btn-link" href="#">{{ user.first_name }}({{ user.username }})</a> {%
+              endcomment %}
+              <a class="btn btn-link" href="#">Logout</a>
+            </li>
+            {% comment %} {% else %} {% endcomment %}
+            <li>
+              <form class="form-inline" action="#" method="post">
+                {% comment %} {% csrf_token %} {% endcomment %}
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Username" name="username" />
+                  <input type="password" class="form-control" placeholder="Password" name="psw" />
+                  <button class="btn btn-primary" type="submit">Login</button>
+                  <a class="btn btn-link" href="">Sign Up</a>
+                </div>
+              </form>
+            </li>
+            {% comment %} {% endif %} {% endcomment %}
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>{% block courses %} {% endblock %}</main>
   </body>
 </html>
