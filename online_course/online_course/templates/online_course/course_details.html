@@ -1,0 +1,27 @@
+{% extends "online_course/base.html" %}
+
+<!-- title -->
+{% block title %} {{ course.name }} {% endblock %}
+<!-- course -->
+{% block course_details %}
+<!-- Course details -->
+<div class="container-fluid course-details">
+  {% for message in messages %}
+  <div class="alert alert-danger">{{ message }}</div>
+  {% endfor %}
+  <h2>{{ course.description }}</h2>
+  <hr />
+  <div class="card-columns-vertical">
+    {% for lesson in course.lesson_set.all %}
+    <div class="card mt-1">
+      <div class="card-header">
+        <h5>Lesson {{ lesson.order|add:1 }}: {{ lesson.title }}</h5>
+      </div>
+      <div class="card-body">{{ lesson.content }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- exam form -->
+  <div>{% include "online_course/_exam_form.html" %}</div>
+</div>
+{% endblock %}

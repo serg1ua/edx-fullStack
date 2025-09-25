@@ -1,10 +1,22 @@
-from django.urls import path
-from django.conf import settings
-from django.conf.urls.static import static
-from .views import course_views
+from django.urls import path, re_path
+from . import views
 
-app_name = 'online_course'
-print(static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT))
+app_name = "online_course"
 urlpatterns = [
-    path(route='', view=course_views.CourseListView.as_view(), name='index'),
-] + static(settings.STATIC_URL, document_root=settings.MEDIA_ROOT)
+    path(route="", view=views.CourseListView.as_view(), name="index"),
+    re_path(r"^(?!admin/).*login/.*$", views.UserLoginView.as_view(), name="login"),
+    path("logout/", views.UserLoginView.as_view(), name="logout"),
+    path("registration/", views.UserRegistrationView.as_view(), name="registration"),
+    path(
+        "course_details/<int:pk>/",
+        views.CourseDetailsView.as_view(),
+        name="course_details",
+    ),
+    path("enroll/<int:course_id>/", views.EnrollmentView.as_view(), name="enroll"),
+    path("course/<int:course_id>/submit", view=views.submit, name="submit"),
+    path(
+        "course/<int:course_id>/exam_result",
+        view=views.get_exam_result,
+        name="exam_result",
+    ),
+]

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  {% load static %}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{% static 'online_course.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'online_course.css' %}" />
+    <link rel="icon" href="{% static 'dj_icon.png' %}" type="image/x-icon" />
+    <title>Online course app: {% block title %}{{ title }}{% endblock %}</title>
+  </head>
+
+  <body>
+    <!-- base header -->
+    <header>
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="{% url 'online_course:index' %}">
+              <h4>Home</h4>
+            </a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            {% if user.is_authenticated %}
+            <li>
+              <a
+                style="font-size: 1.1rem"
+                class="btn btn-link"
+                href="{% url 'online_course:index' %}"
+                >{{user.first_name}}({{user.username}})</a
+              >
+              <a
+                style="font-size: 1.1rem"
+                class="btn btn-link"
+                href="{% url 'online_course:logout' %}"
+                >Logout</a
+              >
+            </li>
+            {% else %}
+            <li>
+              <a
+                style="font-size: 1.1rem"
+                class="btn {% if request.resolver_match.url_name == 'login' %}btn-link disabled{% else %}btn-primary{% endif %}"
+                href="{% url 'online_course:login' %}"
+              >
+                Login
+              </a>
+              <a
+                style="font-size: 1.1rem"
+                class="btn {% if request.resolver_match.url_name == 'registration' %}btn-link disabled{% else %}btn-link{% endif %}"
+                href="{% url 'online_course:registration' %}"
+              >
+                Sign Up
+              </a>
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- block registration -->
+      {% block registration %}{% endblock %}
+      <!-- block registration -->
+      {% block login %}{% endblock %}
+      <!-- block courses -->
+      {% block courses %}{% endblock %}
+      <!-- block course details -->
+      {% block course_details %}{% endblock %}
+      <!-- exam form  -->
+      {% block exam_form %}{% endblock %}
+      <!-- exam result -->
+      {% block exam_result %}{% endblock %}
+    </main>
+  </body>
+</html>
