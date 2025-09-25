@@ -5,16 +5,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="{% static 'online_course/assets/dj_icon.png' %}" type="image/x-icon" />
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'online_course/styles/online_course.css' %}"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="{% static 'online_course.js' %}"></script>
-    <link rel="stylesheet" type="text/css" href="{% static 'online_course.css' %}" />
-    <link rel="icon" href="{% static 'dj_icon.png' %}" type="image/x-icon" />
+    <script src="{% static 'online_course/scripts/online_course.js' %}"></script>
     <title>Online course app: {% block title %}{{ title }}{% endblock %}</title>
   </head>
 

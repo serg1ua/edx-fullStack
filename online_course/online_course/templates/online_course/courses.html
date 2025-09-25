@@ -12,7 +12,11 @@
   <div class="card-deck">
     {% for course in course_list %}
     <div class="card mb-3">
-      <img class="card-img" src="{% static course.image %}" alt="Course image" />
+      <img
+        class="card-img"
+        src="{% static 'online_course/media/' %}{{ course.image }}"
+        alt="Course image"
+      />
       <div class="card-body bg-light">
         <h5 class="card-title">
           {{ course.name }},
