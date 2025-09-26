@@ -66,13 +66,6 @@ input[type="password"]:focus {
   padding: 64px;
 }
 
-.exam-header {
-  color: white;
-  background-color: #38abed;
-  text-align: center;
-  margin: 12px 0;
-}
-
 .submit-exam {
   margin: 12px 0;
 }

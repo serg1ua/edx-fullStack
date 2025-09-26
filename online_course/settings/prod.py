@@ -10,6 +10,11 @@ ALLOWED_HOSTS = [".example.com", "127.0.0.1"]
 
 INSTALLED_APPS.extend([])
 
+MEDIA_ROOT = os.path.join(BASE_DIR, "static/online_course/media")
+
+# additional staticfiles dirs for production
+STATICFILES_DIRS = []
+
 # Database
 # https://docs.djangoproject.com/en/{{ docs_version }}/ref/settings/#databases
 DATABASES = {
@@ -22,5 +27,3 @@ DATABASES = {
         "PORT": os.environ.get("POSTGRES_PORT"),
     }
 }
-
-ST_SITE_URL = "https://example.com/"

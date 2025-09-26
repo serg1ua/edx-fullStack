@@ -8,8 +8,10 @@
 
 ## Usage
 
-- Make sure you have Python >= 3.9 and poetry installed
-- Run `poetry install` from the root
+Make sure you have Python >= 3.9 and poetry installed. From the root:
+
+- run `poetry install`
+- run `python manage.py migrate`
 - run `python manage.py createsuperuser`
 - run `python manage.py runserver`
 

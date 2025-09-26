@@ -22,6 +22,8 @@
     {% endfor %}
   </div>
   <!-- exam form -->
+  {% if user.is_authenticated %}
   <div>{% include "online_course/_exam_form.html" %}</div>
+  {% endif %}
 </div>
 {% endblock %}
