@@ -1,1 +1,9 @@
+# Mac
 .DS_Store
+
+# Env
+.env
+.venv
+
+# sqlite
+db.sqlite3

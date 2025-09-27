@@ -1,0 +1,42 @@
+{% block exam_form %}
+
+<button class="btn btn-primary btn-block" data-toggle="collapse" data-target="#exam">
+  Start Exam
+</button>
+<div id="exam" class="collapse">
+  <form action="{% url 'online_course:submit' course.id %}" method="post">
+    {% csrf_token %}
+    <!-- questions -->
+    {% for question in questions %}
+    <div id="question__{{ question.id }}" class="card mt-1">
+      <div class="card-header">
+        <h5 style="display: inline-block; width: 80%">{{ question.question_text }}</h5>
+        <p style="display: inline-block; text-align: right">Grade: {{ question.grade }} point(s)</p>
+      </div>
+      <div class="card-body">
+        <ul class="list-group list-group-numbered">
+          {% for choice in question.choice_set.all %}
+          <li class="list-group-item">
+            <div class="form-check">
+              <input
+                class="form-check-input question__{{ question.id }}"
+                type="checkbox"
+                name="{{ choice.id }}"
+                id="{{ choice.id }}"
+              />
+              <label class="form-check-label" for="{{ choice.id }}">
+                {{ choice.choice_text }}
+              </label>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+    <button id="submit-exam" class="btn btn-success form-control submit-exam" type="submit">
+      Submit
+    </button>
+  </form>
+</div>
+{% endblock %}

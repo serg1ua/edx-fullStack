@@ -1,0 +1,52 @@
+[project]
+name = "online_course"
+version = "0.0.1"
+description = "online_course is a Python based forum powered by Django."
+authors = [
+    { name = "Serhii Zobov", email = "marxser.ua@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT License" }
+requires-python = ">=3.9"
+
+
+dependencies = [
+    "Django>=4.2,<6",
+    "Pillow>=11",
+    "jinja2>=3.0",
+    "gunicorn>=20.1",
+    "contextvars; python_version < '3.7'",
+    "typing-extensions>=4.2.0; python_version < '3.8'",
+    "aiohttp>=3.8.3",
+    "click>=8.0.4",
+    "wheel>=0.41.1",
+    "multidict>=4.5",
+    "whitenoise>=6.10.0",
+    "python-dotenv>=1.1.1",
+    "psycopg>=3.2.10",
+]
+classifiers = [
+    "Development Status :: Production/Stable",
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Source = "https://github.com/serg1ua/edx-fullStack"
+
+[tool.black]
+line-length = 80
+skip-magic-trailing-comma = true
+target-version = ['py39']
+
+[dependency-groups]
+dev = [
+    "django-debug-toolbar>=4.4.6",
+]
+
+# [project.optional-dependencies]
+# [build-system]
+# [project.scripts]
+# [tool.setuptools]
