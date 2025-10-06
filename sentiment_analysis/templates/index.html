@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./static/styles.css" />
+    <script src="./static/scripts.js"></script>
+    <title>Sentiment Analysis</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-body">
+        <h1 class="center-heading">NLP - Sentiment Analysis using BERT</h1>
+        <div class="center-heading" id="message"></div>
+        <div class="main">
+          <h2 class="mb-3">
+            <label class="form-label" for="text-to-analyze"
+              >Please enter the text to be analyzed</label
+            >
+            <input type="text" class="form-control" id="text-to-analyze" required />
+          </h2>
+
+          <div class="submit">
+            <button onclick="runSentimentAnalysis()" class="btn btn-primary">
+              Run Sentiment Analysis
+            </button>
+          </div>
+          <div class="results">
+            <h2 class="mb-3">
+              <label class="form-label">Result of Sentiment Analysis</label>
+            </h2>
+            <div id="system-response"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

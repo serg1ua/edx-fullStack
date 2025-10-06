@@ -1,0 +1,6 @@
+[MASTER]
+; pylint configuration file
+; For more information see:
+; https://pylint.pycqa.org/en/latest/user_guide/run.html#command-line-options
+; disable=
+;     C0114, C0116
